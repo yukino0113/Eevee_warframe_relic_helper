@@ -1,6 +1,6 @@
 Exit code: 0
-Wall time: 0.9 seconds
-Total output lines: 462
+Wall time: 0.8 seconds
+Total output lines: 450
 Output:
 import { useEffect, useMemo, useRef, useState, type ChangeEvent, type ReactElement } from 'react'
 import { analyzeInventory, analyzeInventorySnapshot, createInventorySnapshot, type DashboardData } from './lib/analyzer'
@@ -12,7 +12,6 @@ import type { MasteryComponent, MasteryEquipment, RelicReward } from './data/pri
 type IconName = 'home' | 'parts' | 'relics' | 'settings' | 'upload' | 'help' | 'refresh' | 'external' | 'check' | 'info'
 type NavItem = 'Overview' | 'Missing parts' | 'Relics' | 'Planner' | 'Prime Resurgence' | 'Void Fissures' | 'Mastery' | 'Settings'
 type FileSource = InventorySnapshot['source'] & { persisted: boolean }
-type PickerWindow = Window & { showOpenFilePicker?: (options?: unknown) => Promise<PersistentFileHandle[]> }
 type FissureMission = { id: string; activation: string; expiry: string; node: string; missionType: string; missionTypeKey?: string; enemy: string; enemyKey?: string; tier: string; tierNum?: number; isStorm: boolean; isHard: boolean }
 
 function getImportErrorMessage(error: unknown, language: Language) {
@@ -172,7 +171,7 @@ function PartsPage({ data, t, language, hideOwnedRelics }: { data: DashboardData
   const visibleParts = useMemo(() => getVisibleParts(data, hideOwnedRelics), [data, hideOwnedRelics])
   const missingParts = useMemo(() => visibleParts.filter((part) => part.owned < 1), [visibleParts])
   const parts = useMemo(() => visibleParts.filter((part) => (!hideOwned || part.owned < 1) && (!query.trim() || `${part.item} ${part.part}`.toLowerCase().includes(query.trim().toLowerCase()))), [visibleParts, query, hideOwned])
-  return <><div className="page-heading page-heading-row"><div><h1>{t.missingTitle}</h1><p>{t.missingDescription(missingParts.length, visibleParts.length)}</p></div><span className="page-count">{missingParts.length} {t.missing}</span></div><div className="toolbar"><label className="search-box"><span>{t.searchParts}</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={t.searchPartsPlaceholder} /></label><label className="filter-check"><input type="checkbox" checked={hideOwned} onChange={(event) => setHideOwned(event.target.checked)} /><span>{t.hideOwnedParts}</span></label><span className="toolbar-note">{t.showingParts(parts.length)}</span></div><section className="panel table-panel"><div className="table-head parts-full-grid"><span>{t.item}</span><span>{t.part}</span><span…2974 tokens truncated…</span></label>)}</div></section><div className="data-card-grid"><section className="data-card"><span className="card-kicker">{t.inventoryCard}</span><h2>{data.imported ? t.alecaLoaded : t.noInventory}</h2><p>{data.imported ? t.alecaLoadedDescription : t.noInventoryDescription}</p><button className="button button-secondary" onClick={onImport}><Icon name="upload" /> {t.importInventory}</button><p className="data-note">{fileSource ? `${t.fileSource}: ${fileSource.name} · ${t.fileLastChecked}: ${lastCheckedAt ? formatDate(lastCheckedAt, language) : '—'} · ${fileSource.persisted ? t.autoRefresh : t.manualImportOnly}` : t.noFileSource}</p></section><section className="data-card"><span className="card-kicker">{t.catalogCard}</span><h2>{t.rotationData}</h2><p>{t.catalogDescription(data.parts.length, data.relics.length, formatDate(data.catalogUpdatedAt, language))}</p><code>{t.updateCommand}</code></section><section className="data-card"><span className="card-kicker">{t.privacyCard}</span><h2>{t.privacyCardTitle}</h2><p>{t.privacyDescription}</p><span className="local-status"><span className="status-dot" /> {t.ready}</span></section></div><section className="panel settings-panel"><div className="panel-heading"><h2>{t.resetTitle}</h2></div><div className="settings-row"><div><strong>{t.clearInventory}</strong><p>{t.clearDescription}</p></div><button className="button button-outline" onClick={onReset}>{t.reset}</button></div></section></>
+  return <><div className="page-heading page-heading-row"><div><h1>{t.missingTitle}</h1><p>{t.missingDescription(missingParts.length, visibleParts.length)}</p></div><span className="page-count">{missingParts.length} {t.missing}</span></div><div className="toolbar"><label className="search-box"><span>{t.searchParts}</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={t.searchPartsPlaceholder} /></label><label className="filter-check"><input type="checkbox" checked={hideOwned} onChange={(event) => setHideOwned(event.target.checked)} /><span>{t.hideOwnedParts}</span></label><span className="toolbar-note">{t.showingParts(parts.length)}</span></div><section className="panel table-panel"><div className="table-head parts-full-grid"><span>{t.item}</span><span>{t.part}</span><span>{t.status}</span><span>{t.rarity}</span><span>{t.bestRelic}</span></div><div className="table-body table-scro…2735 tokens truncated…-kicker">{t.relic}</span><h2>{t.hideOwnedRelics}</h2><p>{t.hideOwnedRelicsDescription}</p></div><label className="filter-check"><input type="checkbox" checked={hideOwnedRelics} onChange={(event) => onHideOwnedRelicsChange(event.target.checked)} /><span>{t.hideOwnedRelics}</span></label></section><section className="panel settings-mission-types"><div className="settings-option-copy"><span className="card-kicker">FILTER</span><h2>{t.missionTypeFilter}</h2><p>{t.missionTypeFilterDescription}</p></div><div className="settings-mission-type-list" role="group" aria-label={t.missionTypeFilter}>{missionTypes.map((type) => <label className="filter-check" key={type}><input type="checkbox" checked={selectedMissionTypes.has(type)} onChange={(event) => onMissionTypeChange(type, event.target.checked)} /><span>{localizeMissionType(type, language, t)}</span></label>)}</div></section><div className="data-card-grid"><section className="data-card"><span className="card-kicker">{t.inventoryCard}</span><h2>{data.imported ? t.alecaLoaded : t.noInventory}</h2><p>{data.imported ? t.alecaLoadedDescription : t.noInventoryDescription}</p><button className="button button-secondary" onClick={onImport}><Icon name="upload" /> {t.importInventory}</button><p className="data-note">{fileSource ? `${t.fileSource}: ${fileSource.name} · ${t.fileLastChecked}: ${lastCheckedAt ? formatDate(lastCheckedAt, language) : '—'} · ${fileSource.persisted ? t.autoRefresh : t.manualImportOnly}` : t.noFileSource}</p></section><section className="data-card"><span className="card-kicker">{t.catalogCard}</span><h2>{t.rotationData}</h2><p>{t.catalogDescription(data.parts.length, data.relics.length, formatDate(data.catalogUpdatedAt, language))}</p><code>{t.updateCommand}</code></section><section className="data-card"><span className="card-kicker">{t.privacyCard}</span><h2>{t.privacyCardTitle}</h2><p>{t.privacyDescription}</p><span className="local-status"><span className="status-dot" /> {t.ready}</span></section></div><section className="panel settings-panel"><div className="panel-heading"><h2>{t.resetTitle}</h2></div><div className="settings-row"><div><strong>{t.clearInventory}</strong><p>{t.clearDescription}</p></div><button className="button button-outline" onClick={onReset}>{t.reset}</button></div></section></>
 }
 
 function App() {
@@ -384,21 +383,10 @@ function App() {
     else next.delete(type)
     return next
   })
-  const openImport = async () => {
-    // Open the picker before any await so the browser keeps the user's activation.
-    // The local endpoint is still used during startup and its background refresh.
-    const picker = (window as PickerWindow).showOpenFilePicker
-    if (!picker) { fileInput.current?.click(); return }
-    try {
-      const [handle] = await picker({ multiple: false, types: [{ description: 'AlecaFrame inventory', accept: { 'application/json': ['.json'], 'application/octet-stream': ['.dat'] } }] })
-      if (handle) await importFile(await handle.getFile(), handle)
-    } catch (err) {
-      if (err instanceof DOMException && err.name === 'AbortError') return
-      setError(language === 'zh-TW'
-        ? '瀏覽器的檔案選取器無法開啟這個資料夾。請改用一般檔案選取器，或先把 lastData.dat 複製到文件資料夾。'
-        : 'The browser file picker could not open this folder. Use the regular file picker, or copy lastData.dat to Documents first.')
-      fileInput.current?.click()
-    }
+  const openImport = () => {
+    // Use the regular input picker so Windows system folders such as AppData
+    // do not block the advanced File System Access picker.
+    fileInput.current?.click()
   }
   const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => { const file = event.target.files?.[0]; event.currentTarget.value = ''; void importFile(file) }
   const resetInventory = () => {
