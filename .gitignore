@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.vite/
+.wrangler/
+.playwright-cli/
+.dev.vars
+.env
+.env.*
+!.env.example
