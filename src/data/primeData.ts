@@ -88,7 +88,7 @@ export type RelicRoute = {
   name: string
   era: string
   owned: number
-  isAya?: boolean
+  isVaulted?: boolean
   imageUrl?: string | null
   source: string
   rewards: RelicReward[]

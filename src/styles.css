@@ -126,6 +126,14 @@ button { font: inherit; }
 .route-mode { display: grid; gap: 3px; min-width: 0; }
 .route-mode small { color: #7f8da5; font-size: 11px; }
 .route-average { color: #d6b2ff; font-size: 15px; }
+.route-chance { cursor: help; }
+.route-tooltip-popover { position: fixed; z-index: 1000; display: grid; gap: 2px; min-width: 210px; max-width: min(320px, calc(100vw - 24px)); padding: 9px 10px; border: 1px solid #7650a6; border-radius: 7px; background: #101a2d; box-shadow: 0 12px 30px rgba(0, 0, 0, .48); color: #e8edf8; pointer-events: none; }
+.route-tooltip-row { display: grid; grid-template-columns: minmax(0, 1fr) 58px; align-items: center; gap: 12px; min-height: 22px; font-size: 12px; line-height: 1.25; }
+.route-tooltip-popover.has-rotation .route-tooltip-row { grid-template-columns: 40px minmax(0, 1fr) 58px; }
+.route-tooltip-row small { color: #ad94d3; font-size: 11px; white-space: nowrap; }
+.route-tooltip-row > span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.route-tooltip-row strong { justify-self: end; color: #ffcb78; font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.route-tooltip-empty { color: #aeb9cc; font-size: 12px; }
 .route-panel .table-scroll { max-height: calc(100vh - 300px); }
 .relic-list-panel { padding: 14px; }
 .relic-list { display: grid; gap: 10px; max-height: calc(100vh - 260px); overflow: auto; }

@@ -92,28 +92,6 @@ const parseOfficialRelics = (html) => {
   return records
 }
 
-const parseOfficialRelicSources = (html) => {
-  const availableRelics = new Set()
-  const sources = new Map()
-  let currentSource = null
-  const section = sectionAfterHeading(html, /<h3\b[^>]*id=["']relicByAvatar["'][^>]*>\s*Relic Drops by Source:\s*<\/h3>/i)
-  for (const row of tableRows(section)) {
-    const sourceHeader = row.cells.find((cell) => /Relic Drop Chance:/i.test(cell))
-    if (sourceHeader) {
-      currentSource = row.cells.find((cell) => !/Relic Drop Chance:/i.test(cell)) || null
-      continue
-    }
-    const relicCell = row.cells.map(relicNameFromCell).find(Boolean)
-    if (!relicCell || !currentSource) continue
-    availableRelics.add(relicCell)
-    const list = sources.get(relicCell) ?? []
-    list.push({ source: currentSource, chance: percentageIn(row.cells.join(' ')) ?? 0 })
-    sources.set(relicCell, list)
-  }
-  if (!availableRelics.size) throw new Error('The official drops page did not contain a relic source table.')
-  return { availableRelics, sources }
-}
-
 const parseMissionHeader = (value) => {
   const match = cellText(value).match(/^(.+?)\s*\(([^()]+)\)$/)
   if (!match) return null
@@ -375,8 +353,8 @@ const main = async () => {
   ])
 
   const officialRelicRecords = parseOfficialRelics(officialDropsHtml)
-  const officialRelicSources = parseOfficialRelicSources(officialDropsHtml)
   const officialMissionRewards = parseOfficialMissions(officialDropsHtml)
+  const sourceMap = buildSourceMap(officialMissionRewards)
 
   const items = Array.isArray(itemsData) ? itemsData : Object.values(itemsData ?? {})
   const itemInfo = new Map(items.filter((item) => item.name && item.imageName).map((item) => [item.name, item]))
@@ -413,7 +391,10 @@ const main = async () => {
     }
   }
 
-  const availableRelicNames = [...officialRelicSources.availableRelics]
+  // The mission table is the source of truth for normal relic availability.
+  // The separate "Relic Drops by Source" section is not complete for every
+  // relic that still appears in a mission rotation.
+  const availableRelicNames = [...sourceMap.keys()]
     .filter((name) => relicRecords.has(name))
     .sort((a, b) => a.localeCompare(b))
   const availableRelicSet = new Set(availableRelicNames)
@@ -459,7 +440,9 @@ const main = async () => {
   for (const [key, occurrences] of primeRewards.entries()) {
     const [item, part] = key.split('::')
     if (!selectedItemSet.has(item)) continue
-    const best = [...occurrences].sort((a, b) => (b.chance ?? 0) - (a.chance ?? 0))[0]
+    const availableOccurrences = occurrences.filter((occurrence) => availableRelicSet.has(occurrence.relic))
+    const best = [...(availableOccurrences.length ? availableOccurrences : occurrences)]
+      .sort((a, b) => (b.chance ?? 0) - (a.chance ?? 0))[0]
     const itemKey = normalize(`${item}${part}`)
     const itemStem = normalize(item.replace(/\s+Prime$/i, ''))
     const partKey = normalize(part)
@@ -487,7 +470,6 @@ const main = async () => {
   }
   parts.sort((a, b) => a.item.localeCompare(b.item) || a.part.localeCompare(b.part))
 
-  const sourceMap = buildSourceMap(officialMissionRewards)
   const routeGroups = buildRouteGroups(officialMissionRewards)
   const routes = [...relicRecords.values()].filter((relic) => relic.rewards.some((reward) => selectedItemSet.has(reward.item)))
     .map((relic) => {
@@ -496,9 +478,9 @@ const main = async () => {
       name: relic.name,
       era: relic.era,
       owned: 0,
-      isAya: !officialRelicSources.availableRelics.has(relic.name),
+      isVaulted: !availableRelicSet.has(relic.name),
       imageUrl: imagePaths.get(relicImageInfo.get(relic.name) ?? `${relic.era.toLowerCase()}-intact.png`) ?? imagePaths.get('OmegaIsotope.png'),
-      source: (locations.length ? locations.map((location) => location.label) : [officialRelicSources.availableRelics.has(relic.name)
+      source: (locations.length ? locations.map((location) => location.label) : [availableRelicSet.has(relic.name)
         ? 'Official drop source listed outside the mission table'
         : 'Vaulted relic · check Varzia / Aya (availability follows official drop table)']).slice(0, 3).join(' · '),
       locations,
