@@ -1,4 +1,4 @@
-import { collectEquipmentProgress, collectItemCounts, collectMasteryProgress, collectRelicCounts } from './inventoryParser'
+import { collectEquipmentProgress, collectItemCounts, collectMasteryProgress, collectPendingRecipeCounts, collectRelicCounts } from './inventoryParser'
 import type { InventorySnapshot } from './fileStore'
 import { availablePrimeItemNames, availableRelicNames, catalog, demoOwned, getCurrentRotation, masteryItems, primeParts, relicAliases, relicRoutes, routeGroups, type MasteryEquipment, type PrimePart, type RelicRoute, type RelicRouteGroup } from '../data/primeData'
 
@@ -60,6 +60,17 @@ export const countOwnedComponent = (rawOwned: Map<string, number>, uniqueName: s
   return count
 }
 
+const recipeLeaf = (rawKey: string) => rawKey.split('/').pop() ?? rawKey
+const pendingRecipeResultKey = (rawKey: string) => normalizeKey(recipeLeaf(rawKey).replace(/Blueprint$/i, ''))
+const pendingFinalRecipeCount = (pendingRecipes: Map<string, number>, item: MasteryEquipment) => {
+  const itemKey = normalizeKey(item.name)
+  let count = 0
+  for (const [rawKey, rawCount] of pendingRecipes) {
+    if (pendingRecipeResultKey(rawKey) === itemKey) count += rawCount
+  }
+  return count
+}
+
 const masteryXpRequired = (item: MasteryEquipment) => (item.kind === 'Weapon' ? 500 : 1000) * item.maxLevelCap ** 2
 
 export type DashboardData = {
@@ -85,12 +96,14 @@ const recordToMap = (record: Record<string, number> | undefined) => new Map(Obje
 export const createInventorySnapshot = (inventory: unknown, source: InventorySnapshot['source']): InventorySnapshot => {
   const equipmentProgress = collectEquipmentProgress(inventory)
   const masteryProgress = collectMasteryProgress(inventory)
+  const pendingRecipes = collectPendingRecipeCounts(inventory)
   return {
     schemaVersion: 1,
     importedAt: Date.now(),
     source,
     itemCounts: mapToRecord(collectItemCounts(inventory)),
     relicCounts: mapToRecord(collectRelicCounts(inventory, relicAliases)),
+    pendingRecipes: mapToRecord(pendingRecipes),
     equipmentProgress: Object.fromEntries([...equipmentProgress.entries()].map(([key, value]) => [key, value.xp])),
     masteryProgress: Object.fromEntries([...masteryProgress.entries()].map(([key, value]) => [key, value.xp])),
   }
@@ -100,19 +113,19 @@ export function analyzeInventory(inventory?: unknown): DashboardData {
   if (inventory && typeof inventory === 'object' && (inventory as { schemaVersion?: unknown }).schemaVersion === 1 && 'itemCounts' in inventory) {
     return analyzeInventorySnapshot(inventory as InventorySnapshot)
   }
-  if (!inventory) return analyzeMaps(new Map(demoOwned), new Map(relicRoutes.map((route) => [route.name, route.owned])), new Map(), new Map(), false, 'Demo inventory 繚 replace with import')
-  return analyzeMaps(collectItemCounts(inventory), collectRelicCounts(inventory, relicAliases), collectEquipmentProgress(inventory), collectMasteryProgress(inventory), true, 'AlecaFrame local file')
+  if (!inventory) return analyzeMaps(new Map(demoOwned), new Map(relicRoutes.map((route) => [route.name, route.owned])), new Map(), new Map(), new Map(), false, 'Demo inventory 繚 replace with import')
+  return analyzeMaps(collectItemCounts(inventory), collectRelicCounts(inventory, relicAliases), collectEquipmentProgress(inventory), collectMasteryProgress(inventory), collectPendingRecipeCounts(inventory), true, 'AlecaFrame local file')
 }
 
 export function analyzeInventorySnapshot(snapshot: InventorySnapshot): DashboardData {
   const equipmentProgress = new Map(Object.entries(snapshot.equipmentProgress ?? {}).map(([key, xp]) => [key, { xp }]))
   const masteryProgress = new Map(Object.entries(snapshot.masteryProgress ?? {}).map(([key, xp]) => [key, { xp }]))
-  return analyzeMaps(recordToMap(snapshot.itemCounts), recordToMap(snapshot.relicCounts), equipmentProgress, masteryProgress, true, snapshot.source.kind === 'local-alecaframe' ? 'AlecaFrame local file' : 'Imported local file')
+  return analyzeMaps(recordToMap(snapshot.itemCounts), recordToMap(snapshot.relicCounts), equipmentProgress, masteryProgress, recordToMap(snapshot.pendingRecipes), true, snapshot.source.kind === 'local-alecaframe' ? 'AlecaFrame local file' : 'Imported local file')
 }
 
-const analyzeMaps = (owned: Map<string, number>, relicCounts: Map<string, number>, equipmentProgress: Map<string, { xp: number }>, masteryProgress: Map<string, { xp: number }>, imported: boolean, sourceLabel: string): DashboardData => {
+const analyzeMaps = (owned: Map<string, number>, relicCounts: Map<string, number>, equipmentProgress: Map<string, { xp: number }>, masteryProgress: Map<string, { xp: number }>, pendingRecipes: Map<string, number>, imported: boolean, sourceLabel: string): DashboardData => {
   const inventory = imported ? true : undefined
-  const ownedEquipmentNames = new Set(masteryItems.filter((item) => hasEquipmentProgress(equipmentProgress, item) || getEquipmentProgress(masteryProgress, item) >= masteryXpRequired(item)).map((item) => item.name))
+  const ownedEquipmentNames = new Set(masteryItems.filter((item) => hasEquipmentProgress(equipmentProgress, item) || getEquipmentProgress(masteryProgress, item) >= masteryXpRequired(item) || pendingFinalRecipeCount(pendingRecipes, item) > 0).map((item) => item.name))
   const parts = primeParts.map((part) => ({ ...part, owned: Math.max(countOwnedPart(owned, part), ownedEquipmentNames.has(part.item) ? 1 : 0) }))
   const availablePrimeItemSet = new Set(availablePrimeItemNames)
   const missing = parts.filter((part) => availablePrimeItemSet.has(part.item) && part.owned < 1)
@@ -139,7 +152,7 @@ const analyzeMaps = (owned: Map<string, number>, relicCounts: Map<string, number
   const analyzedMasteryItems = masteryItems.map((item) => {
     const xp = getEquipmentProgress(equipmentProgress, item)
     const masteryXp = getEquipmentProgress(masteryProgress, item)
-    const itemOwned = imported && hasEquipmentProgress(equipmentProgress, item)
+    const itemOwned = imported && (hasEquipmentProgress(equipmentProgress, item) || pendingFinalRecipeCount(pendingRecipes, item) > 0)
     const mastered = masteryXp >= masteryXpRequired(item)
     const missingComponents = itemOwned ? [] : item.components.filter((component) => countOwnedComponent(owned, component.uniqueName, component.name) < component.quantity)
     return { ...item, xp, owned: itemOwned, mastered, missingComponents }

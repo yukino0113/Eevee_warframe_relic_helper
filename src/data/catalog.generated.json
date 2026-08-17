@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T03:21:10.184Z",
+  "generatedAt": "2026-08-17T11:58:03.725Z",
   "sources": {
     "officialDrops": "https://warframe-web-assets.nyc3.cdn.digitaloceanspaces.com/uploads/cms/hnfvc0o3jnfvc873njb03enrf56.html",
     "items": "https://raw.githubusercontent.com/WFCD/warframe-items/master/data/json/All.json",
@@ -20457,26 +20457,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAAlloyAItem",
           "quantity": 60,
           "imageUrl": "/assets/prime/CommonOreAAlloyA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Neutral",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 3.16,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 3.16,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         },
         {
           "name": "Tear Azurite",
@@ -20484,26 +20465,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemACutAItem",
           "quantity": 10,
           "imageUrl": "/assets/prime/CommonGemACutA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Neutral",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 3.16,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 3.16,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         }
       ]
     },
@@ -31424,26 +31386,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAAlloyAItem",
           "quantity": 20,
           "imageUrl": "/assets/prime/UncommonOreAAlloyA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Visitor",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 5.53,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 5.53,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         },
         {
           "name": "Fish Scales",
@@ -31472,26 +31415,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemACutAItem",
           "quantity": 6,
           "imageUrl": "/assets/prime/UncommonGemACutA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Visitor",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 5.53,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 5.53,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         }
       ]
     },
@@ -32940,26 +32864,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAAlloyAItem",
           "quantity": 40,
           "imageUrl": "/assets/prime/UncommonOreAAlloyA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Visitor",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 5.53,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 5.53,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         },
         {
           "name": "Fish Scales",
@@ -33069,26 +32974,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemACutAItem",
           "quantity": 8,
           "imageUrl": "/assets/prime/UncommonGemACutA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Visitor",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 5.53,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 5.53,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         }
       ]
     },
@@ -43952,14 +43838,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreAAlloyItem",
           "quantity": 40,
           "imageUrl": "/assets/prime/SolarisUncommonOreAAlloy.png",
-          "drops": [
-            {
-              "location": "Solaris United (Smokefinger), Outworlder",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            }
-          ]
+          "drops": []
         }
       ]
     },
@@ -56030,62 +55909,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBAlloyBItem",
           "quantity": 60,
           "imageUrl": "/assets/prime/CommonOreBAlloyA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Offworlder",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Narmer Thumper Doma",
-              "rotation": null,
-              "chance": 33.36,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Tusk Thumper Doma",
-              "rotation": null,
-              "chance": 33.36,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Narmer Thumper Bull",
-              "rotation": null,
-              "chance": 25.02,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Tusk Thumper Bull",
-              "rotation": null,
-              "chance": 25.02,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Narmer Thumper",
-              "rotation": null,
-              "chance": 16.68,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Tusk Thumper",
-              "rotation": null,
-              "chance": 16.68,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 3.16,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 3.16,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         },
         {
           "name": "Esher Devar",
@@ -56093,26 +55917,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBCutAItem",
           "quantity": 10,
           "imageUrl": "/assets/prime/CommonGemBCutA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Offworlder",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 3.16,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 3.16,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         },
         {
           "name": "Fish Scales",
@@ -62441,26 +62246,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAAlloyAItem",
           "quantity": 20,
           "imageUrl": "/assets/prime/UncommonOreAAlloyA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Visitor",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 5.53,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 5.53,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         },
         {
           "name": "Fish Scales",
@@ -62489,26 +62275,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemACutAItem",
           "quantity": 6,
           "imageUrl": "/assets/prime/UncommonGemACutA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Visitor",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 5.53,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 5.53,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         }
       ]
     },
@@ -70765,26 +70532,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAAlloyAItem",
           "quantity": 60,
           "imageUrl": "/assets/prime/CommonOreAAlloyA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Neutral",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 3.16,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 3.16,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         },
         {
           "name": "Tear Azurite",
@@ -70792,26 +70540,7 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemACutAItem",
           "quantity": 10,
           "imageUrl": "/assets/prime/CommonGemACutA.png",
-          "drops": [
-            {
-              "location": "Ostron (Old Man Suumbaat), Neutral",
-              "rotation": null,
-              "chance": 100,
-              "rarity": "Common"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
-              "rotation": "A",
-              "chance": 3.16,
-              "rarity": "Rare"
-            },
-            {
-              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
-              "rotation": "B",
-              "chance": 3.16,
-              "rarity": "Rare"
-            }
-          ]
+          "drops": []
         }
       ]
     },
@@ -105302,6 +105031,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Stradavar Prime",
           "itemZh": "斯特拉迪瓦 Prime",
           "part": "Receiver",
@@ -105394,6 +105130,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Mirage Prime",
           "itemZh": "Mirage Prime",
           "part": "Chassis",
@@ -105438,6 +105181,13 @@
           "part": "Blade",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Burston Prime",
@@ -105546,6 +105296,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Sybaris Prime",
           "itemZh": "席芭莉絲 Prime",
           "part": "Stock",
@@ -105638,6 +105395,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Wisp Prime",
           "itemZh": "Wisp Prime",
           "part": "Systems",
@@ -105682,6 +105446,13 @@
           "part": "Chassis",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Paris Prime",
@@ -105786,6 +105557,13 @@
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -106429,6 +106207,13 @@
         {
           "item": "Styanax Prime",
           "itemZh": "Styanax Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -107124,6 +106909,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Zephyr Prime",
           "itemZh": "Zephyr Prime",
           "part": "Neuroptics",
@@ -107173,6 +106965,13 @@
           "item": "Vasto Prime",
           "itemZh": "瓦斯托 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -107518,6 +107317,13 @@
           "part": "Stock",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -107617,6 +107423,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -107658,6 +107471,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Afuris Prime",
           "itemZh": "盜賊雙槍 Prime",
           "part": "Blueprint",
@@ -107695,6 +107515,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Burston Prime",
@@ -107750,6 +107577,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Blueprint",
@@ -107798,6 +107632,13 @@
         {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -107980,6 +107821,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Trinity Prime",
           "itemZh": "Trinity Prime",
           "part": "Systems",
@@ -108029,6 +107877,13 @@
           "item": "Helios Prime",
           "itemZh": "赫利俄斯 Prime",
           "part": "Carapace",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -108190,6 +108045,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -108289,6 +108151,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -108333,6 +108202,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -108524,6 +108400,13 @@
           "item": "Frost Prime",
           "itemZh": "Frost Prime",
           "part": "Neuroptics",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -109310,6 +109193,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Stock",
@@ -109400,6 +109290,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Epitaph Prime",
@@ -109501,6 +109398,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Orthos Prime",
           "itemZh": "歐特魯斯 Prime",
           "part": "Handle",
@@ -109538,6 +109442,13 @@
           "part": "Link",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Orthos Prime",
@@ -109644,6 +109555,13 @@
           "part": "Barrel",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -109736,6 +109654,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -109825,6 +109750,13 @@
         {
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -109980,6 +109912,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -110125,6 +110064,13 @@
           "part": "Blade",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -110157,6 +110103,13 @@
           "part": "Chassis",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Fragor Prime",
@@ -110495,6 +110448,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Akarius Prime",
           "itemZh": "阿利烏雙槍 Prime",
           "part": "Barrel",
@@ -110592,6 +110552,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -110635,6 +110602,13 @@
         {
           "item": "Karyst Prime",
           "itemZh": "凱洛斯特 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -110725,6 +110699,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Magnus Prime",
           "itemZh": "麥格努斯 Prime",
           "part": "Blueprint",
@@ -110766,6 +110747,13 @@
         {
           "item": "Fang Prime",
           "itemZh": "狼牙 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -110822,6 +110810,13 @@
           "part": "Systems",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -110865,6 +110860,13 @@
         {
           "item": "Sybaris Prime",
           "itemZh": "席芭莉絲 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -110962,6 +110964,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Sybaris Prime",
           "itemZh": "席芭莉絲 Prime",
           "part": "Stock",
@@ -111013,6 +111022,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -111059,6 +111075,13 @@
           "part": "Neuroptics",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -111091,6 +111114,13 @@
           "part": "Chassis",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Paris Prime",
@@ -111149,6 +111179,13 @@
           "item": "Corvas Prime",
           "itemZh": "黑鴉 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -111381,6 +111418,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Bo Prime",
@@ -111653,6 +111697,13 @@
           "part": "Blade",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -111699,6 +111750,13 @@
           "part": "Barrel",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -111742,6 +111800,13 @@
         {
           "item": "Akmagnus Prime",
           "itemZh": "麥格努斯雙槍 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -111820,6 +111885,13 @@
         {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -111943,6 +112015,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -111987,6 +112066,13 @@
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "String",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -112124,6 +112210,13 @@
         {
           "item": "Dual Kamas Prime",
           "itemZh": "雙短柄戰鐮 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -112366,6 +112459,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Receiver",
@@ -112419,6 +112519,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Bronco Prime",
           "itemZh": "野馬 Prime",
           "part": "Blueprint",
@@ -112467,6 +112574,13 @@
         {
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -112567,6 +112681,13 @@
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Stock",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -112709,6 +112830,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Epitaph Prime",
           "itemZh": "墓悼者 Prime",
           "part": "Blueprint",
@@ -112753,6 +112881,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Equinox Prime",
@@ -113337,6 +113472,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Caliban Prime",
           "itemZh": "Caliban Prime",
           "part": "Chassis",
@@ -113427,6 +113569,13 @@
           "part": "Barrel",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Bronco Prime",
@@ -113538,6 +113687,13 @@
           "item": "Vasto Prime",
           "itemZh": "瓦斯托 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -113818,6 +113974,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Destreza Prime",
           "itemZh": "技巧之劍 Prime",
           "part": "Handle",
@@ -113922,6 +114085,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -113934,6 +114104,13 @@
       "source": "Vaulted relic · check Varzia / Aya (availability follows official drop table)",
       "locations": [],
       "rewards": [
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
         {
           "item": "Bronco Prime",
           "itemZh": "野馬 Prime",
@@ -114012,6 +114189,13 @@
           "item": "Guandao Prime",
           "itemZh": "關刀 Prime",
           "part": "Blade",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -114161,6 +114345,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Blueprint",
@@ -114256,6 +114447,13 @@
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -114391,6 +114589,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "String",
@@ -114446,6 +114651,13 @@
         {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -115081,6 +115293,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Dual Zoren Prime",
           "itemZh": "佐倫雙斧 Prime",
           "part": "Handle",
@@ -115185,6 +115404,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -115277,6 +115503,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -115309,6 +115542,13 @@
           "part": "Kubrow Collar",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Nova Prime",
@@ -115530,6 +115770,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -115574,6 +115821,13 @@
           "item": "Titania Prime",
           "itemZh": "Titania Prime",
           "part": "Chassis",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -115721,6 +115975,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -115757,6 +116018,13 @@
         {
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -116583,6 +116851,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "String",
@@ -116641,6 +116916,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -116685,6 +116967,13 @@
           "item": "Strun Prime",
           "itemZh": "斯特朗 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -117039,6 +117328,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -117076,6 +117372,13 @@
           "item": "Daikyu Prime",
           "itemZh": "大久和弓 Prime",
           "part": "String",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -117122,6 +117425,13 @@
           "item": "Nautilus Prime",
           "itemZh": "鸚鵡螺 Prime",
           "part": "Carapace",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -117920,6 +118230,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -117964,6 +118281,13 @@
           "item": "Ballistica Prime",
           "itemZh": "布里斯提卡 Prime",
           "part": "Lower Limb",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -118060,6 +118384,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Receiver",
@@ -118109,6 +118440,13 @@
           "item": "Saryn Prime",
           "itemZh": "Saryn Prime",
           "part": "Neuroptics",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -118198,6 +118536,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Tekko Prime",
           "itemZh": "鐵鉤手甲 Prime",
           "part": "Gauntlet",
@@ -118235,6 +118580,13 @@
           "part": "Barrel",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Baruuk Prime",
@@ -118295,6 +118647,13 @@
           "part": "Blade",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -118331,6 +118690,13 @@
         {
           "item": "Fang Prime",
           "itemZh": "狼牙 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -118488,6 +118854,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Panthera Prime",
           "itemZh": "獵豹 Prime",
           "part": "Blueprint",
@@ -118587,6 +118960,13 @@
           "chance": 2
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Vasto Prime",
           "itemZh": "瓦斯托 Prime",
           "part": "Receiver",
@@ -118624,6 +119004,13 @@
           "part": "Systems",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Burston Prime",
@@ -118682,6 +119069,13 @@
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "Lower Limb",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -119335,6 +119729,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Receiver",
@@ -119384,6 +119785,13 @@
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -119492,6 +119900,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -119529,6 +119944,13 @@
           "item": "Tekko Prime",
           "itemZh": "鐵鉤手甲 Prime",
           "part": "Gauntlet",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -119736,6 +120158,13 @@
           "part": "Hilt",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -119779,6 +120208,13 @@
         {
           "item": "Ankyros Prime",
           "itemZh": "甲龍雙拳 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -119826,6 +120262,13 @@
           "item": "Phantasma Prime",
           "itemZh": "幻離子 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -119927,6 +120370,13 @@
           "part": "Stock",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -119964,6 +120414,13 @@
           "item": "Limbo Prime",
           "itemZh": "Limbo Prime",
           "part": "Systems",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -120009,6 +120466,13 @@
         {
           "item": "Nyx Prime",
           "itemZh": "Nyx Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -120166,6 +120630,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Tipedo Prime",
           "itemZh": "提佩多 Prime",
           "part": "Blueprint",
@@ -120265,6 +120736,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Barrel",
@@ -120353,6 +120831,13 @@
           "item": "Masseter Prime",
           "itemZh": "咀嚼金棒 Prime",
           "part": "Handle",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -120509,6 +120994,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Gauss Prime",
           "itemZh": "Gauss Prime",
           "part": "Chassis",
@@ -120558,6 +121050,13 @@
           "item": "Sevagoth Prime",
           "itemZh": "Sevagoth Prime",
           "part": "Systems",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -120700,6 +121199,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Receiver",
@@ -120744,6 +121250,13 @@
           "part": "Neuroptics",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Saryn Prime",
@@ -120795,6 +121308,13 @@
           "item": "Equinox Prime",
           "itemZh": "Equinox Prime",
           "part": "Chassis",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -120945,6 +121465,13 @@
           "item": "Hikou Prime",
           "itemZh": "飛揚 Prime",
           "part": "Pouch",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -121145,6 +121672,13 @@
           "part": "Neuroptics",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -121244,6 +121778,13 @@
           "part": "Handle",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -121290,6 +121831,13 @@
           "part": "Blade",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -121333,6 +121881,13 @@
         {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -121435,6 +121990,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -121506,6 +122068,13 @@
           "part": "Blueprint",
           "rarity": "Rare",
           "chance": 2
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Odonata Prime",
@@ -121626,6 +122195,13 @@
           "part": "Handle",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -121706,6 +122282,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Fulmin Prime",
           "itemZh": "雷霆 Prime",
           "part": "Barrel",
@@ -121762,6 +122345,13 @@
           "item": "Vasto Prime",
           "itemZh": "瓦斯托 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -121846,6 +122436,13 @@
         {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -122531,6 +123128,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Lavos Prime",
           "itemZh": "Lavos Prime",
           "part": "Chassis",
@@ -122688,6 +123292,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -122780,6 +123391,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -122826,6 +123444,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -122858,6 +123483,13 @@
           "part": "Stock",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Corvas Prime",
@@ -122904,6 +123536,13 @@
           "part": "Stock",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Dual Keres Prime",
@@ -123017,6 +123656,13 @@
           "part": "Blade",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -123054,6 +123700,13 @@
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -123150,6 +123803,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "String",
@@ -123191,6 +123851,13 @@
         {
           "item": "Fang Prime",
           "itemZh": "狼牙 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -123438,6 +124105,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -123588,6 +124262,13 @@
           "item": "Vasto Prime",
           "itemZh": "瓦斯托 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -124340,6 +125021,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "Upper Limb",
@@ -124386,6 +125074,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Dual Kamas Prime",
           "itemZh": "雙短柄戰鐮 Prime",
           "part": "Blueprint",
@@ -124428,6 +125123,13 @@
           "item": "Mirage Prime",
           "itemZh": "Mirage Prime",
           "part": "Chassis",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -124577,6 +125279,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Receiver",
@@ -124619,6 +125328,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -124672,6 +125388,13 @@
           "item": "Kogake Prime",
           "itemZh": "科加基 Prime",
           "part": "Boot",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -124826,6 +125549,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -124858,6 +125588,13 @@
           "part": "Handle",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Paris Prime",
@@ -124916,6 +125653,13 @@
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -125015,6 +125759,13 @@
           "item": "Boar Prime",
           "itemZh": "野豬 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -125153,6 +125904,13 @@
           "item": "Silva & Aegis Prime",
           "itemZh": "席瓦 & 神盾 Prime",
           "part": "Hilt",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -125314,6 +126072,13 @@
           "part": "Systems",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -125404,6 +126169,13 @@
           "item": "Dakra Prime",
           "itemZh": "達克拉 Prime",
           "part": "Handle",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -125542,6 +126314,13 @@
           "item": "Orthos Prime",
           "itemZh": "歐特魯斯 Prime",
           "part": "Handle",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -125783,6 +126562,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Fang Prime",
           "itemZh": "狼牙 Prime",
           "part": "Blueprint",
@@ -125933,6 +126719,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Braton Prime",
@@ -126133,6 +126926,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Gram Prime",
           "itemZh": "格拉姆 Prime",
           "part": "Blade",
@@ -126182,6 +126982,13 @@
           "item": "Zhuge Prime",
           "itemZh": "諸葛連弩 Prime",
           "part": "String",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -126389,6 +127196,13 @@
           "part": "Stock",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -126525,6 +127339,13 @@
           "item": "Guandao Prime",
           "itemZh": "關刀 Prime",
           "part": "Blade",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -126672,6 +127493,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -126715,6 +127543,13 @@
         {
           "item": "Atlas Prime",
           "itemZh": "Atlas Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -126916,6 +127751,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -126994,6 +127836,13 @@
           "part": "Receiver",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Lex Prime",
@@ -127830,6 +128679,13 @@
           "part": "Chassis",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -127924,6 +128780,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Stock",
@@ -128014,6 +128877,13 @@
           "part": "Blade",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Fang Prime",
@@ -128173,6 +129043,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -128210,6 +129087,13 @@
           "item": "Corvas Prime",
           "itemZh": "黑鴉 Prime",
           "part": "Stock",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -128265,6 +129149,13 @@
           "part": "Grip",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -128302,6 +129193,13 @@
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -128352,6 +129250,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Hystrix Prime",
           "itemZh": "豪豬 Prime",
           "part": "Barrel",
@@ -128394,6 +129299,13 @@
           "item": "Masseter Prime",
           "itemZh": "咀嚼金棒 Prime",
           "part": "Handle",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -128447,6 +129359,13 @@
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "Lower Limb",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -129276,6 +130195,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "Blueprint",
@@ -129366,6 +130292,13 @@
           "part": "Neuroptics",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Fang Prime",
@@ -129479,6 +130412,13 @@
           "part": "Barrel",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -129520,6 +130460,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Stock",
@@ -129557,6 +130504,13 @@
           "part": "Neuroptics",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Burston Prime",
@@ -129612,6 +130566,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Phantasma Prime",
           "itemZh": "幻離子 Prime",
           "part": "Receiver",
@@ -129661,6 +130622,13 @@
           "item": "Fang Prime",
           "itemZh": "狼牙 Prime",
           "part": "Blade",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -129753,6 +130721,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -130487,6 +131462,13 @@
           "part": "Barrel",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -130620,6 +131602,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Corinth Prime",
           "itemZh": "科林斯 Prime",
           "part": "Blueprint",
@@ -130673,6 +131662,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Blueprint",
@@ -130722,6 +131718,13 @@
           "item": "Gara Prime",
           "itemZh": "Gara Prime",
           "part": "Systems",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -130823,6 +131826,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -130913,6 +131923,13 @@
           "item": "Fang Prime",
           "itemZh": "狼牙 Prime",
           "part": "Blade",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -131959,6 +132976,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -131995,6 +133019,13 @@
         {
           "item": "Atlas Prime",
           "itemZh": "Atlas Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -132051,6 +133082,13 @@
           "part": "Neuroptics",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -132092,6 +133130,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Stradavar Prime",
           "itemZh": "斯特拉迪瓦 Prime",
           "part": "Receiver",
@@ -132129,6 +133174,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Hildryn Prime",
@@ -132177,6 +133229,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Stock",
@@ -132221,6 +133280,13 @@
           "part": "Systems",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Lex Prime",
@@ -132380,6 +133446,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -132465,6 +133538,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Velox Prime",
@@ -132571,6 +133651,13 @@
           "part": "Handle",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -132615,6 +133702,13 @@
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "Upper Limb",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -133643,6 +134737,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Perigale Prime",
           "itemZh": "肆飆 Prime",
           "part": "Blueprint",
@@ -133691,6 +134792,13 @@
         {
           "item": "Tipedo Prime",
           "itemZh": "提佩多 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -133892,6 +135000,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -133986,6 +135101,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Quassus Prime",
           "itemZh": "夸瑟 Prime",
           "part": "Handle",
@@ -134028,6 +135150,13 @@
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -134083,6 +135212,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -134127,6 +135263,13 @@
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -134225,6 +135368,13 @@
         {
           "item": "Soma Prime",
           "itemZh": "月神 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -134426,6 +135576,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -134463,6 +135620,13 @@
           "item": "Grendel Prime",
           "itemZh": "Grendel Prime",
           "part": "Neuroptics",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -134552,6 +135716,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Scindo Prime",
           "itemZh": "分裂斬斧 Prime",
           "part": "Handle",
@@ -134615,6 +135786,13 @@
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -134907,6 +136085,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -134992,6 +136177,13 @@
           "part": "Systems",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Paris Prime",
@@ -135091,6 +136283,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -135178,6 +136377,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Orthos Prime",
           "itemZh": "歐特魯斯 Prime",
           "part": "Handle",
@@ -135234,6 +136440,13 @@
           "item": "Soma Prime",
           "itemZh": "月神 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -135326,6 +136539,13 @@
           "item": "Nidus Prime",
           "itemZh": "Nidus Prime",
           "part": "Systems",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -136494,6 +137714,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -136540,6 +137767,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -136577,6 +137811,13 @@
           "item": "Mirage Prime",
           "itemZh": "Mirage Prime",
           "part": "Neuroptics",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -136627,6 +137868,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "String",
@@ -136669,6 +137917,13 @@
           "item": "Gyre Prime",
           "itemZh": "Gyre Prime",
           "part": "Systems",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -136869,6 +138124,13 @@
           "part": "Handle",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -136968,6 +138230,13 @@
           "part": "Barrel",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -137014,6 +138283,13 @@
           "part": "Stock",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -137046,6 +138322,13 @@
           "part": "Systems",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Equinox Prime",
@@ -137104,6 +138387,13 @@
           "item": "Strun Prime",
           "itemZh": "斯特朗 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -137237,6 +138527,13 @@
           "part": "Grip",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Tatsu Prime",
@@ -137483,6 +138780,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Guandao Prime",
           "itemZh": "關刀 Prime",
           "part": "Blade",
@@ -137626,6 +138930,13 @@
           "part": "Systems",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Paris Prime",
@@ -137778,6 +139089,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -137874,6 +139192,13 @@
         {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -138121,6 +139446,13 @@
           "part": "Systems",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -138153,6 +139485,13 @@
           "part": "Blade",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Larkspur Prime",
@@ -139367,6 +140706,13 @@
           "part": "Barrel",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -139404,6 +140750,13 @@
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "Upper Limb",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -140497,6 +141850,13 @@
           "part": "Lower Limb",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -140746,6 +142106,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Stock",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -141195,6 +142562,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -141241,6 +142615,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -141273,6 +142654,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Acceltra Prime",
@@ -141473,6 +142861,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Receiver",
@@ -141510,6 +142905,13 @@
           "part": "Chassis",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Boltor Prime",
@@ -141611,6 +143013,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Cernos Prime",
           "itemZh": "西諾斯 Prime",
           "part": "Upper Limb",
@@ -141657,6 +143066,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "String",
@@ -141694,6 +143110,13 @@
           "part": "String",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Akbronco Prime",
@@ -141795,6 +143218,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Loki Prime",
           "itemZh": "Loki Prime",
           "part": "Neuroptics",
@@ -141848,6 +143278,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Fang Prime",
           "itemZh": "狼牙 Prime",
           "part": "Blueprint",
@@ -141890,6 +143327,13 @@
           "item": "Harrow Prime",
           "itemZh": "Harrow Prime",
           "part": "Chassis",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -142046,6 +143490,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Strun Prime",
           "itemZh": "斯特朗 Prime",
           "part": "Receiver",
@@ -142087,6 +143538,13 @@
         {
           "item": "Bronco Prime",
           "itemZh": "野馬 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -142140,6 +143598,13 @@
         {
           "item": "Carrier Prime",
           "itemZh": "搬運者 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -142336,6 +143801,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Stock",
@@ -142435,6 +143907,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Baza Prime",
           "itemZh": "蒼鷹 Prime",
           "part": "Receiver",
@@ -142523,6 +144002,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -142624,6 +144110,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -142661,6 +144154,13 @@
           "item": "Nezha Prime",
           "itemZh": "Nezha Prime",
           "part": "Systems",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -142875,6 +144375,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -143020,6 +144527,13 @@
           "part": "Systems",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -143064,6 +144578,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Stock",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -143163,6 +144684,13 @@
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "String",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -143310,6 +144838,13 @@
           "part": "Barrel",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -143356,6 +144891,13 @@
           "part": "Gauntlet",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -143400,6 +144942,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -143680,6 +145229,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Cernos Prime",
           "itemZh": "西諾斯 Prime",
           "part": "Upper Limb",
@@ -143729,6 +145285,13 @@
           "item": "Gram Prime",
           "itemZh": "格拉姆 Prime",
           "part": "Blade",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -143876,6 +145439,13 @@
           "part": "Lower Limb",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -143913,6 +145483,13 @@
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -143968,6 +145545,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -144014,6 +145598,13 @@
           "part": "Gauntlet",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -144051,6 +145642,13 @@
           "item": "Dethcube Prime",
           "itemZh": "死亡魔方 Prime",
           "part": "Systems",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -144246,6 +145844,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Protea Prime",
           "itemZh": "Protea Prime",
           "part": "Blueprint",
@@ -144355,6 +145960,13 @@
           "item": "Quassus Prime",
           "itemZh": "夸瑟 Prime",
           "part": "Handle",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -145402,6 +147014,13 @@
         {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -146520,6 +148139,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Spira Prime",
           "itemZh": "旋刃飛刀 Prime",
           "part": "Blueprint",
@@ -146569,6 +148195,13 @@
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -146665,6 +148298,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Barrel",
@@ -146706,6 +148346,13 @@
         {
           "item": "Knell Prime",
           "itemZh": "喪鐘 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -146753,6 +148400,13 @@
           "item": "Fragor Prime",
           "itemZh": "重擊巨鎚 Prime",
           "part": "Head",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -146806,6 +148460,13 @@
           "item": "Fulmin Prime",
           "itemZh": "雷霆 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -146948,6 +148609,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Phantasma Prime",
           "itemZh": "幻離子 Prime",
           "part": "Receiver",
@@ -147038,6 +148706,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Shade Prime",
@@ -148107,6 +149782,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Caliban Prime",
           "itemZh": "Caliban Prime",
           "part": "Chassis",
@@ -149167,6 +150849,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Fang Prime",
           "itemZh": "狼牙 Prime",
           "part": "Blueprint",
@@ -149266,6 +150955,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Stradavar Prime",
           "itemZh": "斯特拉迪瓦 Prime",
           "part": "Receiver",
@@ -149317,6 +151013,13 @@
           "part": "Chassis",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -149361,6 +151064,13 @@
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -149409,6 +151119,13 @@
           "part": "String",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -149453,6 +151170,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -149501,6 +151225,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -149533,6 +151264,13 @@
           "part": "Receiver",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Revenant Prime",
@@ -149634,6 +151372,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Barrel",
@@ -149724,6 +151469,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Daikyu Prime",
@@ -150937,6 +152689,13 @@
           "part": "Chassis",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -150981,6 +152740,13 @@
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "String",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -151029,6 +152795,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -151066,6 +152839,13 @@
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -151171,6 +152951,13 @@
         {
           "item": "Fang Prime",
           "itemZh": "狼牙 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -151314,6 +153101,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Rhino Prime",
           "itemZh": "Rhino Prime",
           "part": "Systems",
@@ -151365,6 +153159,13 @@
           "part": "Stock",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -151411,6 +153212,13 @@
           "part": "Lower Limb",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -151455,6 +153263,13 @@
           "item": "Mirage Prime",
           "itemZh": "Mirage Prime",
           "part": "Neuroptics",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -151556,6 +153371,13 @@
           "part": "Chassis",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -151588,6 +153410,13 @@
           "part": "Handle",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Velox Prime",
@@ -151696,6 +153525,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Nidus Prime",
           "itemZh": "Nidus Prime",
           "part": "Systems",
@@ -151745,6 +153581,13 @@
           "item": "Corvas Prime",
           "itemZh": "黑鴉 Prime",
           "part": "Stock",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -151844,6 +153687,13 @@
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Stock",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -152925,6 +154775,13 @@
           "part": "Receiver",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Kompressa Prime",
@@ -155028,6 +156885,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Alternox Prime",
           "itemZh": "交電步槍 Prime",
           "part": "Receiver",
@@ -155127,6 +156991,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Akarius Prime",
           "itemZh": "阿利烏雙槍 Prime",
           "part": "Barrel",
@@ -155176,6 +157047,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Stock",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -155268,6 +157146,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -155364,6 +157249,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Blueprint",
@@ -155406,6 +157298,13 @@
           "item": "Wisp Prime",
           "itemZh": "Wisp Prime",
           "part": "Systems",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -155505,6 +157404,13 @@
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "String",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -155652,6 +157558,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -155684,6 +157597,13 @@
           "part": "Handle",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Afuris Prime",
@@ -155776,6 +157696,13 @@
           "part": "Receiver",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Braton Prime",
@@ -155884,6 +157811,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Kogake Prime",
           "itemZh": "科加基 Prime",
           "part": "Boot",
@@ -155935,6 +157869,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -155967,6 +157908,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Dethcube Prime",
@@ -156018,6 +157966,13 @@
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -156126,6 +158081,13 @@
           "part": "Stock",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -156170,6 +158132,13 @@
           "item": "Rhino Prime",
           "itemZh": "Rhino Prime",
           "part": "Systems",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -156262,6 +158231,13 @@
           "item": "Fulmin Prime",
           "itemZh": "雷霆 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -156476,6 +158452,13 @@
           "part": "Handle",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -156519,6 +158502,13 @@
         {
           "item": "Fang Prime",
           "itemZh": "狼牙 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -156621,6 +158611,13 @@
           "part": "Systems",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -156658,6 +158655,13 @@
           "item": "Silva & Aegis Prime",
           "itemZh": "席瓦 & 神盾 Prime",
           "part": "Hilt",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -156814,6 +158818,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Blueprint",
@@ -156865,6 +158876,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -156909,6 +158927,13 @@
           "item": "Revenant Prime",
           "itemZh": "Revenant Prime",
           "part": "Chassis",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -156998,6 +159023,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Receiver",
@@ -157054,6 +159086,13 @@
           "item": "Dual Keres Prime",
           "itemZh": "凱瑞斯雙刀 Prime",
           "part": "Blade",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -157196,6 +159235,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Strun Prime",
           "itemZh": "斯特朗 Prime",
           "part": "Receiver",
@@ -157233,6 +159279,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Lex Prime",
@@ -157291,6 +159344,13 @@
           "item": "Velox Prime",
           "itemZh": "迅敏屠夫 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -157390,6 +159450,13 @@
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
           "part": "Stock",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -157576,6 +159643,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -157622,6 +159696,13 @@
           "part": "Barrel",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -157654,6 +159735,13 @@
           "part": "Ornament",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Redeemer Prime",
@@ -157854,6 +159942,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Bronco Prime",
           "itemZh": "野馬 Prime",
           "part": "Receiver",
@@ -157905,6 +160000,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -157949,6 +160051,13 @@
           "item": "Nezha Prime",
           "itemZh": "Nezha Prime",
           "part": "Systems",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -158087,6 +160196,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -158232,6 +160348,13 @@
           "item": "Gara Prime",
           "itemZh": "Gara Prime",
           "part": "Systems",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -158533,6 +160656,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Helios Prime",
           "itemZh": "赫利俄斯 Prime",
           "part": "Carapace",
@@ -158777,6 +160907,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Odonata Prime",
           "itemZh": "<ARCHWING> Odonata Prime",
           "part": "Harness",
@@ -158881,6 +161018,13 @@
           "part": "Barrel",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -158971,6 +161115,13 @@
           "item": "Nautilus Prime",
           "itemZh": "鸚鵡螺 Prime",
           "part": "Carapace",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -159171,6 +161322,13 @@
           "part": "Stock",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -159207,6 +161365,13 @@
         {
           "item": "Akbronco Prime",
           "itemZh": "野馬雙槍 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -159249,6 +161414,13 @@
           "part": "Neuroptics",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Paris Prime",
@@ -159307,6 +161479,13 @@
           "item": "Orthos Prime",
           "itemZh": "歐特魯斯 Prime",
           "part": "Handle",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -159461,6 +161640,13 @@
           "part": "Gauntlet",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -159505,6 +161691,13 @@
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Stock",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -159657,6 +161850,13 @@
           "item": "Vasto Prime",
           "itemZh": "瓦斯托 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -159949,6 +162149,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -159981,6 +162188,13 @@
           "part": "Barrel",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Octavia Prime",
@@ -160036,6 +162250,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
           "part": "Receiver",
@@ -160082,6 +162303,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
           "part": "Lower Limb",
@@ -160119,6 +162347,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Tatsu Prime",
@@ -160176,6 +162411,13 @@
         {
           "item": "Paris Prime",
           "itemZh": "帕里斯 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -160418,6 +162660,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Trinity Prime",
           "itemZh": "Trinity Prime",
           "part": "Neuroptics",
@@ -160508,6 +162757,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Bronco Prime",
@@ -160602,6 +162858,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Dual Kamas Prime",
           "itemZh": "雙短柄戰鐮 Prime",
           "part": "Blueprint",
@@ -160650,6 +162913,13 @@
         {
           "item": "Lex Prime",
           "itemZh": "雷克斯 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -161695,6 +163965,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Braton Prime",
           "itemZh": "布萊頓 Prime",
           "part": "Barrel",
@@ -161799,6 +164076,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -161843,6 +164127,13 @@
           "item": "Ivara Prime",
           "itemZh": "Ivara Prime",
           "part": "Neuroptics",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -161935,6 +164226,13 @@
           "item": "Astilla Prime",
           "itemZh": "碎裂者 Prime",
           "part": "Receiver",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         },
@@ -162036,6 +164334,13 @@
           "part": "Receiver",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -162070,6 +164375,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Sevagoth Prime",
           "itemZh": "Sevagoth Prime",
           "part": "Neuroptics",
@@ -162097,6 +164409,13 @@
         {
           "item": "Nyx Prime",
           "itemZh": "Nyx Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -162172,6 +164491,13 @@
           "item": "Guandao Prime",
           "itemZh": "關刀 Prime",
           "part": "Blade",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -163542,6 +165868,13 @@
           "part": "Grip",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -163585,6 +165918,13 @@
         {
           "item": "Akbolto Prime",
           "itemZh": "螺釘雙槍 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -163740,6 +166080,13 @@
           "chance": 25.33
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Nyx Prime",
           "itemZh": "Nyx Prime",
           "part": "Blueprint",
@@ -163881,6 +166228,13 @@
           "item": "Akarius Prime",
           "itemZh": "阿利烏雙槍 Prime",
           "part": "Barrel",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -165022,6 +167376,13 @@
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         }
       ]
     },
@@ -165054,6 +167415,13 @@
           "part": "Blueprint",
           "rarity": "Uncommon",
           "chance": 11
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
         },
         {
           "item": "Bronco Prime",
@@ -165165,6 +167533,13 @@
           "item": "Zephyr Prime",
           "itemZh": "Zephyr Prime",
           "part": "Neuroptics",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
         }
@@ -165346,6 +167721,13 @@
           "chance": 11
         },
         {
+          "item": "Forma",
+          "itemZh": "Forma",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
           "item": "Wukong Prime",
           "itemZh": "Wukong Prime",
           "part": "Neuroptics",
@@ -165447,6 +167829,13 @@
         {
           "item": "Burston Prime",
           "itemZh": "伯斯頓 Prime",
+          "part": "Blueprint",
+          "rarity": "Common",
+          "chance": 25.33
+        },
+        {
+          "item": "Forma",
+          "itemZh": "Forma",
           "part": "Blueprint",
           "rarity": "Common",
           "chance": 25.33
@@ -179892,6 +182281,11 @@
     "/Lotus/Types/Game/Projections/T4VoidProjectionStyanaxPrimeCGold": "Axi A22",
     "/Lotus/Types/Game/Projections/T4VoidProjectionStyanaxPrimeCBronze": "Axi A22",
     "/Lotus/Types/Game/Projections/T4VoidProjectionStyanaxPrimeCPlatinum": "Axi A22",
+    "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultASilver": "Axi A23",
+    "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultA": "Axi A23",
+    "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultAGold": "Axi A23",
+    "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultABronze": "Axi A23",
+    "/Lotus/Types/Game/Projections/T4VoidProjectionProteaIvaraVaultAPlatinum": "Axi A23",
     "/Lotus/Types/Game/Projections/T4VoidProjectionMiragePrimeBSilver": "Axi A3",
     "/Lotus/Types/Game/Projections/T4VoidProjectionMiragePrimeB": "Axi A3",
     "/Lotus/Types/Game/Projections/T4VoidProjectionMiragePrimeBGold": "Axi A3",
@@ -180853,6 +183247,11 @@
     "/Lotus/Types/Game/Projections/T1VoidProjectionHildrynPrimeCGold": "Lith B11",
     "/Lotus/Types/Game/Projections/T1VoidProjectionHildrynPrimeCBronze": "Lith B11",
     "/Lotus/Types/Game/Projections/T1VoidProjectionHildrynPrimeCPlatinum": "Lith B11",
+    "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultASilver": "Lith B12",
+    "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultA": "Lith B12",
+    "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultAGold": "Lith B12",
+    "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultABronze": "Lith B12",
+    "/Lotus/Types/Game/Projections/T1VoidProjectionProteaIvaraVaultAPlatinum": "Lith B12",
     "/Lotus/Types/Game/Projections/T1VoidProjectionHydroidPrimeBSilver": "Lith B2",
     "/Lotus/Types/Game/Projections/T1VoidProjectionHydroidPrimeB": "Lith B2",
     "/Lotus/Types/Game/Projections/T1VoidProjectionHydroidPrimeBGold": "Lith B2",
@@ -182124,6 +184523,11 @@
     "/Lotus/Types/Game/Projections/T2VoidProjectionHarrowPrimeBGold": "Meso I2",
     "/Lotus/Types/Game/Projections/T2VoidProjectionHarrowPrimeBBronze": "Meso I2",
     "/Lotus/Types/Game/Projections/T2VoidProjectionHarrowPrimeBPlatinum": "Meso I2",
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultASilver": "Meso I3",
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultA": "Meso I3",
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultAGold": "Meso I3",
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultABronze": "Meso I3",
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultAPlatinum": "Meso I3",
     "/Lotus/Types/Game/Projections/T2VoidProjectionMiragePrimeBSilver": "Meso K1",
     "/Lotus/Types/Game/Projections/T2VoidProjectionMiragePrimeB": "Meso K1",
     "/Lotus/Types/Game/Projections/T2VoidProjectionMiragePrimeBGold": "Meso K1",
@@ -182595,6 +184999,11 @@
     "/Lotus/Types/Game/Projections/T2VoidProjectionVorunaPrimeDGold": "Meso V15",
     "/Lotus/Types/Game/Projections/T2VoidProjectionVorunaPrimeDBronze": "Meso V15",
     "/Lotus/Types/Game/Projections/T2VoidProjectionVorunaPrimeDPlatinum": "Meso V15",
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultBSilver": "Meso V16",
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultB": "Meso V16",
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultBGold": "Meso V16",
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultBBronze": "Meso V16",
+    "/Lotus/Types/Game/Projections/T2VoidProjectionProteaIvaraVaultBPlatinum": "Meso V16",
     "/Lotus/Types/Game/Projections/T2VoidProjectionDSilver": "Meso V2",
     "/Lotus/Types/Game/Projections/T2VoidProjectionD": "Meso V2",
     "/Lotus/Types/Game/Projections/T2VoidProjectionDGold": "Meso V2",
@@ -183275,6 +185684,11 @@
     "/Lotus/Types/Game/Projections/T3VoidProjectionGyrePrimeDGold": "Neo O3",
     "/Lotus/Types/Game/Projections/T3VoidProjectionGyrePrimeDBronze": "Neo O3",
     "/Lotus/Types/Game/Projections/T3VoidProjectionGyrePrimeDPlatinum": "Neo O3",
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultBSilver": "Neo O4",
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultB": "Neo O4",
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultBGold": "Neo O4",
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultBBronze": "Neo O4",
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultBPlatinum": "Neo O4",
     "/Lotus/Types/Game/Projections/T3VoidProjectionTitaniaPrimeBSilver": "Neo P1",
     "/Lotus/Types/Game/Projections/T3VoidProjectionTitaniaPrimeB": "Neo P1",
     "/Lotus/Types/Game/Projections/T3VoidProjectionTitaniaPrimeBGold": "Neo P1",
@@ -183285,6 +185699,11 @@
     "/Lotus/Types/Game/Projections/T3VoidProjectionVorunaPrimeBGold": "Neo P10",
     "/Lotus/Types/Game/Projections/T3VoidProjectionVorunaPrimeBBronze": "Neo P10",
     "/Lotus/Types/Game/Projections/T3VoidProjectionVorunaPrimeBPlatinum": "Neo P10",
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultASilver": "Neo P11",
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultA": "Neo P11",
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultAGold": "Neo P11",
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultABronze": "Neo P11",
+    "/Lotus/Types/Game/Projections/T3VoidProjectionProteaIvaraVaultAPlatinum": "Neo P11",
     "/Lotus/Types/Game/Projections/T3VoidProjectionOctaviaPrimeCSilver": "Neo P2",
     "/Lotus/Types/Game/Projections/T3VoidProjectionOctaviaPrimeC": "Neo P2",
     "/Lotus/Types/Game/Projections/T3VoidProjectionOctaviaPrimeCGold": "Neo P2",

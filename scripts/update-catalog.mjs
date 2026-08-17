@@ -155,6 +155,15 @@ const primePartFromReward = (itemName) => {
   return { item: match[1], part: match[2] }
 }
 
+const specialRelicRewardFromName = (itemName) => {
+  if (typeof itemName !== 'string') return null
+  const normalizedName = itemName.replace(/\s+/g, ' ').trim()
+  if (!/^(?:\d+\s+X\s+)?Forma(?:\s+Blueprint)?(?:\s+X\s+\d+)?$/i.test(normalizedName)) return null
+  return { item: 'Forma', part: 'Blueprint' }
+}
+
+const rewardPartFromName = (itemName) => primePartFromReward(itemName) ?? specialRelicRewardFromName(itemName)
+
 const buildSourceMap = (missionRewards) => {
   const sources = new Map()
   for (const [planet, missions] of Object.entries(missionRewards ?? {})) {
@@ -373,7 +382,7 @@ const main = async () => {
 
   for (const [name, rawRelic] of officialRelicRecords.entries()) {
     const rewards = rawRelic.rewards.map((reward) => {
-      const part = primePartFromReward(reward.itemName)
+      const part = rewardPartFromName(reward.itemName)
       return {
         ...part,
         itemName: reward.itemName,
@@ -384,6 +393,7 @@ const main = async () => {
     }).filter((reward) => reward.item)
     relicRecords.set(name, { name, era: rawRelic.era, rewards })
     for (const reward of rewards) {
+      if (reward.item === 'Forma') continue
       const key = `${reward.item}::${reward.part}`
       const occurrences = primeRewards.get(key) ?? []
       occurrences.push({ relic: name, rarity: reward.rarity, chance: reward.chance })
@@ -398,13 +408,14 @@ const main = async () => {
     .filter((name) => relicRecords.has(name))
     .sort((a, b) => a.localeCompare(b))
   const availableRelicSet = new Set(availableRelicNames)
+  const itemNames = [...new Set([...primeRewards.keys()].map((key) => key.split('::')[0]))]
+  const itemNameSet = new Set(itemNames)
   const availablePrimeItemNames = [...new Set(
     [...relicRecords.values()]
       .filter((relic) => availableRelicSet.has(relic.name))
-      .flatMap((relic) => relic.rewards.map((reward) => reward.item).filter(Boolean)),
+      .flatMap((relic) => relic.rewards.map((reward) => reward.item).filter((item) => itemNameSet.has(item))),
   )].sort((a, b) => a.localeCompare(b))
 
-  const itemNames = [...new Set([...primeRewards.keys()].map((key) => key.split('::')[0]))]
   const now = Date.now()
   const activeRotation = (worldState.PrimeVaultTraders ?? []).find((entry) => {
     const activation = dateMillis(entry.Activation)
@@ -428,7 +439,7 @@ const main = async () => {
     })
   })
   const featuredItems = exactFeaturedItems.length ? exactFeaturedItems : (heuristicFeaturedItems.length ? heuristicFeaturedItems : [])
-  const selectedItemSet = new Set(itemNames)
+  const selectedItemSet = new Set([...itemNames, 'Forma'])
   await mkdir(ASSET_DIR, { recursive: true })
   const componentImageNames = masteryCatalogItems.flatMap((item) => item.components?.map((component) => component.imageName) ?? [])
   const imageNames = new Set(['OmegaIsotope.png', 'GenericComponentPrimePlug.png', ...masteryCatalogItems.map((item) => item.imageName).filter(Boolean), ...componentImageNames.filter(Boolean)])

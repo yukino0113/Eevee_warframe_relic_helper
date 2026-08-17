@@ -4,7 +4,7 @@ import { analyzeInventory, analyzeInventorySnapshot, createInventorySnapshot, ty
 import { clearInventoryHandle, clearInventorySnapshot, loadInventoryHandle, loadInventorySnapshot, saveInventoryHandle, saveInventorySnapshot, type InventorySnapshot, type PersistentFileHandle } from './lib/fileStore'
 import { parseAlecaFrameFile, parseInventoryJson } from './lib/inventoryParser'
 import { translations, type Language, type Translation } from './lib/i18n'
-import type { MasteryComponent, MasteryEquipment, RelicReward, RelicRouteGroup } from './data/primeData'
+import type { MasteryComponent, MasteryEquipment, RelicReward, RelicRoute, RelicRouteGroup } from './data/primeData'
 
 type IconName = 'home' | 'parts' | 'relics' | 'settings' | 'upload' | 'help' | 'refresh' | 'external' | 'check' | 'info'
 type NavItem = 'Overview' | 'Missing parts' | 'Relics' | 'Planner' | 'Prime Resurgence' | 'Void Fissures' | 'Mastery' | 'Settings'
@@ -124,6 +124,13 @@ const localizeMissionType = (missionType: string, language: Language, t: Transla
 // "已入庫" refers to the relic's vaulted status, not the number a player owns.
 // Inventory count must never remove an active route that can still supply a missing part.
 const filterVaultedRelics = <T extends { isVaulted?: boolean }>(relics: T[], hideVaulted: boolean) => hideVaulted ? relics.filter((relic) => !relic.isVaulted) : relics
+const relicEraOrder: Record<string, number> = { Lith: 0, Neo: 1, Meso: 2, Axi: 3 }
+const comparePlannerRelics = (left: RelicRoute & { recommendationScore: number }, right: RelicRoute & { recommendationScore: number }) => {
+  const eraOrder = (relic: RelicRoute) => relicEraOrder[relic.era] ?? Number.MAX_SAFE_INTEGER
+  return eraOrder(left) - eraOrder(right) || right.recommendationScore - left.recommendationScore || left.name.localeCompare(right.name)
+}
+const rewardRarityOrder: Record<RelicReward['rarity'], number> = { Common: 0, Uncommon: 1, Rare: 2 }
+const isAlwaysCompleteReward = (reward: RelicReward) => /^Forma(?:\s+Blueprint)?$/i.test(reward.item.trim())
 
 const partKey = (item: string, part: string) => `${item}::${part}`
 
@@ -215,11 +222,12 @@ function RelicsPage({ data, t, language, hideOwnedRelics, selectedMissionTypes }
 }
 
 function PlannerPage({ data, t, language, hideOwnedRelics }: { data: DashboardData; t: Translation; language: Language; hideOwnedRelics: boolean }) {
-  const rows = useMemo(() => [...filterVaultedRelics(data.unownedRelics, hideOwnedRelics)].sort((a, b) => b.recommendationScore - a.recommendationScore), [data.unownedRelics, hideOwnedRelics])
+  const rows = useMemo(() => [...filterVaultedRelics(data.unownedRelics, hideOwnedRelics)].sort(comparePlannerRelics), [data.unownedRelics, hideOwnedRelics])
   const partByKey = useMemo(() => new Map(data.parts.map((part) => [`${part.item}::${part.part}`, part])), [data.parts])
   return <><div className="page-heading page-heading-row"><div><h1>{t.plannerTitle}</h1><p>{t.plannerDescription}</p></div><span className="page-count">{t.plannerRows(rows.length)}</span></div><section className="panel relic-list-panel"><div className="relic-list">{rows.map((route) => {
     const bestLocation = route.locations.reduce<(typeof route.locations)[number] | undefined>((best, location) => !best || location.chance > best.chance ? location : best, undefined)
-    return <article className="relic-card" key={route.name}><div className="relic-card-head"><CatalogImage className="relic-card-thumb" src={route.imageUrl} fallbackSrc="/assets/prime/OmegaIsotope.png" /><div><strong>{localizeRelic(route.name, language, t)}</strong><small>{route.owned ? `${route.owned}×` : '0×'} · {localizeEra(route.era, language, t)}</small></div></div><div className="relic-rewards">{route.rewards.map((reward) => { const part = partByKey.get(`${reward.item}::${reward.part}`); const owned = (part?.owned ?? 0) > 0; return <div className={`relic-reward ${owned ? 'owned' : `missing ${reward.rarity.toLowerCase()}`}`} key={`${route.name}-${reward.item}-${reward.part}`} title={`${localizeReward(reward, language, t)} · ${reward.chance}%`}><span className="reward-image-wrap">{part?.imageUrl ? <CatalogImage src={part.imageUrl} fallbackSrc={part.itemImageUrl} /> : <span className="item-glyph">?</span>}{owned && <span className="reward-check">✓</span>}</span><span className="reward-copy"><strong>{localizePrimeItem(reward, language)}</strong><small>{localizePart(reward.part, language, t)}</small></span></div> })}</div>{bestLocation && <div className="relic-card-route"><span>{language === 'zh-TW' ? '最高效地圖' : 'Best mission'}</span><strong>{bestLocation.mission}</strong><small>{localizeMissionType(bestLocation.gameMode, language, t)}{bestLocation.rotation ? ` · ${bestLocation.rotation}${language === 'zh-TW' ? ' 輪' : ''}` : ''} · {formatChance(bestLocation.chance)}</small></div>}</article>
+    const rewards = [...route.rewards].sort((left, right) => rewardRarityOrder[left.rarity] - rewardRarityOrder[right.rarity])
+    return <article className="relic-card" key={route.name}><div className="relic-card-head"><CatalogImage className="relic-card-thumb" src={route.imageUrl} fallbackSrc="/assets/prime/OmegaIsotope.png" /><div><strong>{localizeRelic(route.name, language, t)}</strong><small>{route.owned ? `${route.owned}×` : '0×'} · {localizeEra(route.era, language, t)}</small></div></div><div className="relic-rewards">{rewards.map((reward) => { const part = partByKey.get(`${reward.item}::${reward.part}`); const alwaysComplete = isAlwaysCompleteReward(reward); const owned = alwaysComplete || (part?.owned ?? 0) > 0; return <div className={`relic-reward ${owned ? 'owned' : `missing ${reward.rarity.toLowerCase()}`}`} key={`${route.name}-${reward.item}-${reward.part}`} title={`${localizeReward(reward, language, t)} · ${reward.chance}%`}><span className="reward-image-wrap">{part?.imageUrl ? <CatalogImage src={part.imageUrl} fallbackSrc={part.itemImageUrl} /> : alwaysComplete ? <CatalogImage src="/assets/prime/GenericComponentPrimePlug.png" /> : <span className="item-glyph">?</span>}{owned && <span className="reward-check">✓</span>}</span><span className="reward-copy"><strong>{localizePrimeItem(reward, language)}</strong><small>{localizePart(reward.part, language, t)}</small></span></div> })}</div>{bestLocation && <div className="relic-card-route"><span>{language === 'zh-TW' ? '最高效地圖' : 'Best mission'}</span><strong>{bestLocation.mission}</strong><small>{localizeMissionType(bestLocation.gameMode, language, t)}{bestLocation.rotation ? ` · ${bestLocation.rotation}${language === 'zh-TW' ? ' 輪' : ''}` : ''} · {formatChance(bestLocation.chance)}</small></div>}</article>
   })}{rows.length === 0 && <div className="empty-state">{t.noPlannerResults}</div>}</div></section></>
 }
 
@@ -378,7 +386,7 @@ function App() {
     let cancelled = false
     const restoreInventory = async () => {
       const snapshot = await loadInventorySnapshot()
-      const needsMasteryMigration = snapshot?.masteryProgress === undefined
+      const needsMasteryMigration = snapshot?.masteryProgress === undefined || snapshot?.pendingRecipes === undefined
       if (snapshot && !cancelled) {
         const cachedSource: FileSource = { ...snapshot.source, persisted: snapshot.source.kind === 'local-alecaframe' }
         fileSourceRef.current = cachedSource

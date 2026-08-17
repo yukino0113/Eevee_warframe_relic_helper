@@ -16,6 +16,7 @@ export type InventorySnapshot = {
   }
   itemCounts: Record<string, number>
   relicCounts: Record<string, number>
+  pendingRecipes?: Record<string, number>
   equipmentProgress: Record<string, number>
   masteryProgress?: Record<string, number>
 }

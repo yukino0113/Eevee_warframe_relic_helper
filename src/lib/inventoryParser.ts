@@ -102,6 +102,27 @@ export function collectRelicCounts(inventory: unknown, aliases: Record<string, s
   return counts
 }
 
+/**
+ * PendingRecipes is separate from the normal inventory bins. The game
+ * removes ingredients as soon as a Foundry job starts, so callers need the
+ * recipe list to distinguish "being built" from "never owned".
+ */
+export function collectPendingRecipeCounts(inventory: unknown): Map<string, number> {
+  const counts = new Map<string, number>()
+  const records = inventory && typeof inventory === 'object'
+    ? (inventory as Record<string, unknown>).PendingRecipes
+    : undefined
+  if (!Array.isArray(records)) return counts
+
+  for (const entry of records) {
+    if (!entry || typeof entry !== 'object') continue
+    const itemType = (entry as Record<string, unknown>).ItemType
+    if (typeof itemType !== 'string' || itemType.length === 0) continue
+    counts.set(itemType, (counts.get(itemType) ?? 0) + 1)
+  }
+  return counts
+}
+
 export function collectEquipmentProgress(inventory: unknown): Map<string, EquipmentProgress> {
   const progress = new Map<string, EquipmentProgress>()
   const visit = (value: unknown) => {
