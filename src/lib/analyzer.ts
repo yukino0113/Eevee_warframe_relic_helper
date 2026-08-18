@@ -5,16 +5,24 @@ import { availablePrimeItemNames, availableRelicNames, catalog, demoOwned, getCu
 const normalizeKey = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, '')
 
 export const countOwnedPart = (rawOwned: Map<string, number>, item: PrimePart) => {
-  const aliases = item.ownedKeys.map(normalizeKey)
-  const completedItem = normalizeKey(item.item)
   const itemStem = normalizeKey(item.item.replace(/\s+Prime$/i, ''))
-  const partKey = normalizeKey(item.part)
+  const recipePartNames = item.part === 'Neuroptics' ? ['Neuroptics', 'Helmet'] : [item.part]
+  const aliases = [
+    ...item.ownedKeys,
+    ...recipePartNames.flatMap((partName) => [
+      `${item.item}${partName}`,
+      `${itemStem}${partName}`,
+      `Prime${itemStem}${partName}`,
+    ]),
+  ].map(normalizeKey)
+  const completedItem = normalizeKey(item.item)
+  const partKeys = recipePartNames.map(normalizeKey)
   let count = 0
 
   for (const [rawKey, rawCount] of rawOwned) {
     const key = normalizeKey(rawKey)
     const leaf = normalizeKey(rawKey.split('/').pop() ?? rawKey)
-    const signatureMatches = itemStem.length > 3 && partKey.length > 2 && key.includes(itemStem) && key.includes(partKey) && key.includes('prime')
+    const signatureMatches = itemStem.length > 3 && partKeys.some((partKey) => partKey.length > 2 && key.includes(itemStem) && key.includes(partKey) && key.includes('prime'))
     if (signatureMatches || aliases.some((alias) => alias.length > 3 && key.includes(alias))) {
       count += rawCount
       continue
@@ -52,7 +60,11 @@ export const hasEquipmentProgress = (progress: Map<string, { xp: number }>, item
 }
 
 export const countOwnedComponent = (rawOwned: Map<string, number>, uniqueName: string, name: string) => {
-  const aliases = [uniqueName, name].map(normalizeKey)
+  const aliases = [
+    uniqueName,
+    name,
+    uniqueName.replace(/Prime/gi, ''),
+  ].map(normalizeKey)
   let count = 0
   for (const [rawKey, rawCount] of rawOwned) {
     if (aliasesMatch(rawKey, aliases)) count += rawCount
