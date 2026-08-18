@@ -61,12 +61,41 @@ export const countOwnedComponent = (rawOwned: Map<string, number>, uniqueName: s
 }
 
 const recipeLeaf = (rawKey: string) => rawKey.split('/').pop() ?? rawKey
-const pendingRecipeResultKey = (rawKey: string) => normalizeKey(recipeLeaf(rawKey).replace(/Blueprint$/i, ''))
+const pendingRecipeResultKey = (rawKey: string) => normalizeKey(recipeLeaf(rawKey).replace(/(?:Blueprint|Component)$/i, ''))
 const pendingFinalRecipeCount = (pendingRecipes: Map<string, number>, item: MasteryEquipment) => {
   const itemKey = normalizeKey(item.name)
   let count = 0
   for (const [rawKey, rawCount] of pendingRecipes) {
-    if (pendingRecipeResultKey(rawKey) === itemKey) count += rawCount
+    if (normalizeKey(recipeLeaf(rawKey).replace(/Blueprint$/i, '')) === itemKey) count += rawCount
+  }
+  return count
+}
+
+const pendingRecipePartAliases = (part: PrimePart) => {
+  // Warframe recipes call the Neuroptics component a Helmet.
+  return part.part === 'Neuroptics' ? ['Neuroptics', 'Helmet'] : [part.part]
+}
+
+const pendingRecipeMatchesPart = (rawKey: string, part: PrimePart) => {
+  if (part.part === 'Blueprint') return false
+  const recipeKey = pendingRecipeResultKey(rawKey)
+  const itemKey = normalizeKey(part.item)
+  return recipeKey.startsWith(itemKey) && pendingRecipePartAliases(part).some((alias) => recipeKey.endsWith(normalizeKey(alias)))
+}
+
+const countPendingRecipePart = (pendingRecipes: Map<string, number>, part: PrimePart) => {
+  let count = 0
+  for (const [rawKey, rawCount] of pendingRecipes) {
+    if (pendingRecipeMatchesPart(rawKey, part)) count += rawCount
+  }
+  return count
+}
+
+const countPendingComponent = (pendingRecipes: Map<string, number>, uniqueName: string) => {
+  const componentKey = pendingRecipeResultKey(uniqueName)
+  let count = 0
+  for (const [rawKey, rawCount] of pendingRecipes) {
+    if (pendingRecipeResultKey(rawKey) === componentKey) count += rawCount
   }
   return count
 }
@@ -126,7 +155,14 @@ export function analyzeInventorySnapshot(snapshot: InventorySnapshot): Dashboard
 const analyzeMaps = (owned: Map<string, number>, relicCounts: Map<string, number>, equipmentProgress: Map<string, { xp: number }>, masteryProgress: Map<string, { xp: number }>, pendingRecipes: Map<string, number>, imported: boolean, sourceLabel: string): DashboardData => {
   const inventory = imported ? true : undefined
   const ownedEquipmentNames = new Set(masteryItems.filter((item) => hasEquipmentProgress(equipmentProgress, item) || getEquipmentProgress(masteryProgress, item) >= masteryXpRequired(item) || pendingFinalRecipeCount(pendingRecipes, item) > 0).map((item) => item.name))
-  const parts = primeParts.map((part) => ({ ...part, owned: Math.max(countOwnedPart(owned, part), ownedEquipmentNames.has(part.item) ? 1 : 0) }))
+  const parts = primeParts.map((part) => ({
+    ...part,
+    owned: Math.max(
+      countOwnedPart(owned, part),
+      countPendingRecipePart(pendingRecipes, part),
+      ownedEquipmentNames.has(part.item) ? 1 : 0,
+    ),
+  }))
   const availablePrimeItemSet = new Set(availablePrimeItemNames)
   const missing = parts.filter((part) => availablePrimeItemSet.has(part.item) && part.owned < 1)
   const missingPartKeys = new Set(missing.map((part) => `${normalizeKey(part.item)}::${normalizeKey(part.part)}`))
@@ -154,7 +190,9 @@ const analyzeMaps = (owned: Map<string, number>, relicCounts: Map<string, number
     const masteryXp = getEquipmentProgress(masteryProgress, item)
     const itemOwned = imported && (hasEquipmentProgress(equipmentProgress, item) || pendingFinalRecipeCount(pendingRecipes, item) > 0)
     const mastered = masteryXp >= masteryXpRequired(item)
-    const missingComponents = itemOwned ? [] : item.components.filter((component) => countOwnedComponent(owned, component.uniqueName, component.name) < component.quantity)
+    const missingComponents = itemOwned ? [] : item.components.filter((component) => (
+      countOwnedComponent(owned, component.uniqueName, component.name) + countPendingComponent(pendingRecipes, component.uniqueName) < component.quantity
+    ))
     return { ...item, xp, owned: itemOwned, mastered, missingComponents }
   })
 
