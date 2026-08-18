@@ -125,6 +125,7 @@ button { font: inherit; }
 .route-row { min-height: 58px; }
 .route-mode { display: grid; gap: 3px; min-width: 0; }
 .route-mode small { color: #7f8da5; font-size: 11px; }
+.route-mission-list { color: #b5c1d4; font-size: 11px; line-height: 1.35; overflow-wrap: anywhere; }
 .route-average { color: #d6b2ff; font-size: 15px; }
 .route-chance { cursor: help; }
 .route-tooltip-popover { position: fixed; z-index: 1000; display: grid; gap: 2px; min-width: 210px; max-width: min(320px, calc(100vw - 24px)); padding: 9px 10px; border: 1px solid #7650a6; border-radius: 7px; background: #101a2d; box-shadow: 0 12px 30px rgba(0, 0, 0, .48); color: #e8edf8; pointer-events: none; }
