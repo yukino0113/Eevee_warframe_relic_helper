@@ -158,8 +158,9 @@ const primePartFromReward = (itemName) => {
 const specialRelicRewardFromName = (itemName) => {
   if (typeof itemName !== 'string') return null
   const normalizedName = itemName.replace(/\s+/g, ' ').trim()
-  if (!/^(?:\d+\s+X\s+)?Forma(?:\s+Blueprint)?(?:\s+X\s+\d+)?$/i.test(normalizedName)) return null
-  return { item: 'Forma', part: 'Blueprint' }
+  const match = normalizedName.match(/^(?:(\d+)\s*[X×]\s*)?Forma(?:\s+Blueprint)?(?:\s*[X×]\s*(\d+))?$/i)
+  if (!match) return null
+  return { item: 'Forma', part: 'Blueprint', quantity: Number(match[1] ?? match[2] ?? 1) }
 }
 
 const rewardPartFromName = (itemName) => primePartFromReward(itemName) ?? specialRelicRewardFromName(itemName)
@@ -373,7 +374,7 @@ const main = async () => {
   const formaRewardsByRelic = new Map(relicItems
     .filter((item) => / Intact$/i.test(item.name ?? ''))
     .map((item) => {
-      const reward = (item.rewards ?? []).find((candidate) => /^(?:\d+\s+X\s+)?Forma(?:\s+Blueprint)?(?:\s+X\s+\d+)?$/i.test(candidate.item?.name ?? candidate.itemName ?? ''))
+      const reward = (item.rewards ?? []).find((candidate) => specialRelicRewardFromName(candidate.item?.name ?? candidate.itemName))
       if (!reward) return null
       return [item.name.replace(/ Intact$/i, ''), { itemName: reward.item?.name ?? reward.itemName, rarity: reward.rarity, chance: Number(reward.chance) || 0 }]
     })
@@ -507,7 +508,7 @@ const main = async () => {
         ? 'Official drop source listed outside the mission table'
         : 'Vaulted relic · check Varzia / Aya (availability follows official drop table)']).slice(0, 3).join(' · '),
       locations,
-      rewards: relic.rewards.filter((reward) => selectedItemSet.has(reward.item)).map((reward) => ({ item: reward.item, itemZh: reward.itemZh, part: reward.part, imageUrl: reward.imageUrl ?? null, rarity: reward.rarity, chance: Number(reward.chance) || 0 })),
+      rewards: relic.rewards.filter((reward) => selectedItemSet.has(reward.item)).map((reward) => ({ item: reward.item, itemZh: reward.itemZh, part: reward.part, ...(reward.quantity > 1 ? { quantity: reward.quantity } : {}), imageUrl: reward.imageUrl ?? null, rarity: reward.rarity, chance: Number(reward.chance) || 0 })),
     }
     })
     .sort((a, b) => a.name.localeCompare(b.name))
