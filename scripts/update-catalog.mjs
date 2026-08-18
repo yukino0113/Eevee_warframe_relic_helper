@@ -370,6 +370,14 @@ const main = async () => {
   const masteryCatalogItems = items.filter((item) => item.masterable === true && item.name && item.uniqueName)
   const relicItems = Array.isArray(relicItemsData) ? relicItemsData : Object.values(relicItemsData ?? {})
   const relicImageInfo = new Map(relicItems.filter((item) => item.name && item.imageName).map((item) => [item.name.replace(/ (Intact|Exceptional|Flawless|Radiant)$/i, ''), item.imageName]))
+  const formaRewardsByRelic = new Map(relicItems
+    .filter((item) => / Intact$/i.test(item.name ?? ''))
+    .map((item) => {
+      const reward = (item.rewards ?? []).find((candidate) => /^(?:\d+\s+X\s+)?Forma(?:\s+Blueprint)?(?:\s+X\s+\d+)?$/i.test(candidate.item?.name ?? candidate.itemName ?? ''))
+      if (!reward) return null
+      return [item.name.replace(/ Intact$/i, ''), { itemName: reward.item?.name ?? reward.itemName, rarity: reward.rarity, chance: Number(reward.chance) || 0 }]
+    })
+    .filter(Boolean))
   const relicAliases = {}
   for (const item of relicItems) {
     if (!item.name || !item.uniqueName) continue
@@ -381,12 +389,16 @@ const main = async () => {
   const relicRecords = new Map()
 
   for (const [name, rawRelic] of officialRelicRecords.entries()) {
-    const rewards = rawRelic.rewards.map((reward) => {
+    const rawRewards = [...rawRelic.rewards]
+    const fallbackFormaReward = formaRewardsByRelic.get(name)
+    if (fallbackFormaReward && !rawRewards.some((reward) => specialRelicRewardFromName(reward.itemName))) rawRewards.push(fallbackFormaReward)
+    const rewards = rawRewards.map((reward) => {
       const part = rewardPartFromName(reward.itemName)
       return {
         ...part,
         itemName: reward.itemName,
         itemZh: part ? localizedTraditionalName(localizations, itemInfo.get(part.item)?.uniqueName, part.item) : null,
+        imageUrl: part?.item === 'Forma' ? '/assets/prime/GenericComponent.png' : null,
         rarity: rarityFromChance(reward.chance, reward.rarity),
         chance: Number(reward.chance) || 0,
       }
@@ -442,7 +454,7 @@ const main = async () => {
   const selectedItemSet = new Set([...itemNames, 'Forma'])
   await mkdir(ASSET_DIR, { recursive: true })
   const componentImageNames = masteryCatalogItems.flatMap((item) => item.components?.map((component) => component.imageName) ?? [])
-  const imageNames = new Set(['OmegaIsotope.png', 'GenericComponentPrimePlug.png', ...masteryCatalogItems.map((item) => item.imageName).filter(Boolean), ...componentImageNames.filter(Boolean)])
+  const imageNames = new Set(['OmegaIsotope.png', 'GenericComponent.png', 'GenericComponentPrimePlug.png', ...masteryCatalogItems.map((item) => item.imageName).filter(Boolean), ...componentImageNames.filter(Boolean)])
   for (const relic of relicRecords.values()) imageNames.add(relicImageInfo.get(relic.name) ?? `${relic.era.toLowerCase()}-intact.png`)
   const imagePaths = await downloadAssets(imageNames)
   const masteryItems = buildMasteryItems(masteryCatalogItems, imagePaths, localizations)
@@ -495,7 +507,7 @@ const main = async () => {
         ? 'Official drop source listed outside the mission table'
         : 'Vaulted relic · check Varzia / Aya (availability follows official drop table)']).slice(0, 3).join(' · '),
       locations,
-      rewards: relic.rewards.filter((reward) => selectedItemSet.has(reward.item)).map((reward) => ({ item: reward.item, itemZh: reward.itemZh, part: reward.part, rarity: reward.rarity, chance: Number(reward.chance) || 0 })),
+      rewards: relic.rewards.filter((reward) => selectedItemSet.has(reward.item)).map((reward) => ({ item: reward.item, itemZh: reward.itemZh, part: reward.part, imageUrl: reward.imageUrl ?? null, rarity: reward.rarity, chance: Number(reward.chance) || 0 })),
     }
     })
     .sort((a, b) => a.name.localeCompare(b.name))

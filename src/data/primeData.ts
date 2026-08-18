@@ -21,6 +21,7 @@ export type RelicReward = {
   item: string
   itemZh?: string | null
   part: string
+  imageUrl?: string | null
   rarity: Rarity
   chance: number
 }

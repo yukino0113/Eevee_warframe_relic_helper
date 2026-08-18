@@ -75,7 +75,7 @@ const masteryXpRequired = (item: MasteryEquipment) => (item.kind === 'Weapon' ? 
 
 export type DashboardData = {
   rotation: ReturnType<typeof getCurrentRotation>
-  missing: typeof primeParts
+  missing: Array<PrimePart & { owned: number }>
   parts: Array<PrimePart & { owned: number }>
   relics: Array<RelicRoute & { owned: number; missingRewards: RelicRoute['rewards']; recommendationScore: number }>
   unownedRelics: Array<RelicRoute & { owned: number; missingRewards: RelicRoute['rewards']; recommendationScore: number }>
@@ -129,9 +129,9 @@ const analyzeMaps = (owned: Map<string, number>, relicCounts: Map<string, number
   const parts = primeParts.map((part) => ({ ...part, owned: Math.max(countOwnedPart(owned, part), ownedEquipmentNames.has(part.item) ? 1 : 0) }))
   const availablePrimeItemSet = new Set(availablePrimeItemNames)
   const missing = parts.filter((part) => availablePrimeItemSet.has(part.item) && part.owned < 1)
-  const ownedParts = new Map(parts.map((part) => [`${normalizeKey(part.item)}::${normalizeKey(part.part)}`, part]))
+  const missingPartKeys = new Set(missing.map((part) => `${normalizeKey(part.item)}::${normalizeKey(part.part)}`))
   const relics = relicRoutes.map((route) => {
-    const missingRewards = route.rewards.filter((reward) => ownedParts.get(`${normalizeKey(reward.item)}::${normalizeKey(reward.part)}`)?.owned === 0)
+    const missingRewards = route.rewards.filter((reward) => missingPartKeys.has(`${normalizeKey(reward.item)}::${normalizeKey(reward.part)}`))
     const highestDropChance = route.locations.reduce((highest, location) => Math.max(highest, location.chance), 0)
     return {
       ...route,

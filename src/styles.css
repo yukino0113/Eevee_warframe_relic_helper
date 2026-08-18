@@ -155,10 +155,9 @@ button { font: inherit; }
 .reward-copy strong, .reward-copy small { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .reward-copy strong { color: #e4e9f4; font-size: 10px; line-height: 1.2; }
 .reward-copy small { color: #aeb8cc; font-size: 10px; margin-top: 2px; }
-.relic-reward.owned .reward-image-wrap { border-color: #36c967; box-shadow: 0 0 0 2px #36c96733; }
-.relic-reward.missing.common .reward-image-wrap { border-color: #bd7f4a; box-shadow: 0 0 0 2px #bd7f4a2c; }
-.relic-reward.missing.uncommon .reward-image-wrap { border-color: #c9d2df; box-shadow: 0 0 0 2px #c9d2df2c; }
-.relic-reward.missing.rare .reward-image-wrap { border-color: #f1c84b; box-shadow: 0 0 0 2px #f1c84b2c; }
+.relic-reward.common .reward-image-wrap { border-color: #bd7f4a; box-shadow: 0 0 0 2px #bd7f4a2c; }
+.relic-reward.uncommon .reward-image-wrap { border-color: #c9d2df; box-shadow: 0 0 0 2px #c9d2df2c; }
+.relic-reward.rare .reward-image-wrap { border-color: #f1c84b; box-shadow: 0 0 0 2px #f1c84b2c; }
 .reward-check { position: absolute; top: -2px; right: 1px; width: 18px; height: 18px; border-radius: 50%; color: #fff; background: #2fc75f; font-size: 12px; line-height: 18px; font-weight: 700; }
 .rotation-panel { overflow: hidden; }
 .rotation-grid { display: grid; gap: 1px; padding: 14px; background: #081222; }
