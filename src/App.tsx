@@ -104,7 +104,7 @@ const localizeFissureTier = (tier: string, language: Language, t: Translation) =
   const [era, ...rest] = tier.split(' ')
   return `${localizeEra(era, language, t)}${rest.length ? ` ${rest.join(' ')}` : ''}`
 }
-const fissureTierOrder: Record<string, number> = { lith: 0, neo: 1, meso: 2, axi: 3, requiem: 4, omnia: 5 }
+const fissureTierOrder: Record<string, number> = { lith: 0, meso: 1, neo: 2, axi: 3, requiem: 4, omnia: 5 }
 const sortFissuresByTier = (missions: FissureMission[]) => [...missions].sort((left, right) => {
   const tierDifference = (fissureTierOrder[left.tier.trim().toLowerCase()] ?? Number.MAX_SAFE_INTEGER) - (fissureTierOrder[right.tier.trim().toLowerCase()] ?? Number.MAX_SAFE_INTEGER)
   return tierDifference || left.node.localeCompare(right.node)
@@ -126,7 +126,7 @@ const localizeMissionType = (missionType: string, language: Language, t: Transla
 // "已入庫" refers to the relic's vaulted status, not the number a player owns.
 // Inventory count must never remove an active route that can still supply a missing part.
 const filterVaultedRelics = <T extends { isVaulted?: boolean }>(relics: T[], hideVaulted: boolean) => hideVaulted ? relics.filter((relic) => !relic.isVaulted) : relics
-const relicEraOrder: Record<string, number> = { Lith: 0, Neo: 1, Meso: 2, Axi: 3 }
+const relicEraOrder: Record<string, number> = { Lith: 0, Meso: 1, Neo: 2, Axi: 3 }
 const comparePlannerRelics = (left: RelicRoute & { recommendationScore: number }, right: RelicRoute & { recommendationScore: number }) => {
   const eraOrder = (relic: RelicRoute) => relicEraOrder[relic.era] ?? Number.MAX_SAFE_INTEGER
   return eraOrder(left) - eraOrder(right) || right.recommendationScore - left.recommendationScore || left.name.localeCompare(right.name)

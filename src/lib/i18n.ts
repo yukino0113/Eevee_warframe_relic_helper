@@ -29,7 +29,7 @@ export const translations = {
     resetTitle: '重設本機工作階段', clearInventory: '清除已匯入 inventory', clearDescription: '回到空白示範狀態，不會修改 catalog。', reset: '重設 inventory',
     language: '介面語言', traditionalChinese: '繁體中文', english: 'English',
     routesLocal: '路線由本機 catalog 產生。', type: '類型', warframe: '戰甲', weapon: '武器', other: '其他',
-    era: { Lith: '古紀', Meso: '中紀', Neo: '前紀', Axi: '後紀', Requiem: '安魂' },
+    era: { Lith: '古紀', Meso: '前紀', Neo: '中紀', Axi: '後紀', Requiem: '安魂' },
     partNames: { Blueprint: '藍圖', Chassis: '機體', Neuroptics: '神經光元', Systems: '系統', Barrel: '槍管', Receiver: '接收器', Stock: '槍托', Blade: '刀刃', Blades: '刀刃', Handle: '握柄', Grip: '握把', Head: '頭部', Disc: '圓盤', Link: '連接器', String: '弓弦', LowerLimb: '下肢', UpperLimb: '上肢', Band: '束帶', Boot: '靴子', Buckle: '扣環', Carapace: '甲殼', Cerebrum: '大腦', Chain: '鏈條', Gauntlet: '護手', Guard: '護衛', Harness: '吊帶', Hilt: '劍柄', KubrowCollar: '庫狛項圈', Ornament: '飾品', Pouch: '袋囊', Stars: '星鏢', Wings: '翅膀' },
     rarityNames: { Common: '常見', Uncommon: '罕見', Rare: '稀有' },
     hideOwnedRelics: '隱藏已入庫遺物', hideOwnedRelicsDescription: '在總覽、遺物推薦地圖與未完成遺物清單中隱藏官方掉落表沒有來源的已入庫遺物；不會依你的遺物庫存數量隱藏推薦地圖。', hideOwnedParts: '隱藏已擁有部件', hideOwnedPartsDescription: '在出庫未獲得部件頁面中，只顯示目前尚未入庫的部件。', hideOwnedRewards: '隱藏已獲得部件',

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T02:24:54.849Z",
+  "generatedAt": "2026-08-21T12:35:23.173Z",
   "sources": {
     "officialDrops": "https://warframe-web-assets.nyc3.cdn.digitaloceanspaces.com/uploads/cms/hnfvc0o3jnfvc873njb03enrf56.html",
     "items": "https://raw.githubusercontent.com/WFCD/warframe-items/master/data/json/All.json",
@@ -20457,7 +20457,26 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAAlloyAItem",
           "quantity": 60,
           "imageUrl": "/assets/prime/CommonOreAAlloyA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Neutral",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 3.16,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 3.16,
+              "rarity": "Rare"
+            }
+          ]
         },
         {
           "name": "Tear Azurite",
@@ -20465,7 +20484,26 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemACutAItem",
           "quantity": 10,
           "imageUrl": "/assets/prime/CommonGemACutA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Neutral",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 3.16,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 3.16,
+              "rarity": "Rare"
+            }
+          ]
         }
       ]
     },
@@ -31386,7 +31424,26 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAAlloyAItem",
           "quantity": 20,
           "imageUrl": "/assets/prime/UncommonOreAAlloyA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Visitor",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 5.53,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 5.53,
+              "rarity": "Rare"
+            }
+          ]
         },
         {
           "name": "Fish Scales",
@@ -31415,7 +31472,26 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemACutAItem",
           "quantity": 6,
           "imageUrl": "/assets/prime/UncommonGemACutA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Visitor",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 5.53,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 5.53,
+              "rarity": "Rare"
+            }
+          ]
         }
       ]
     },
@@ -32864,7 +32940,26 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAAlloyAItem",
           "quantity": 40,
           "imageUrl": "/assets/prime/UncommonOreAAlloyA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Visitor",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 5.53,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 5.53,
+              "rarity": "Rare"
+            }
+          ]
         },
         {
           "name": "Fish Scales",
@@ -32974,7 +33069,26 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemACutAItem",
           "quantity": 8,
           "imageUrl": "/assets/prime/UncommonGemACutA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Visitor",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 5.53,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 5.53,
+              "rarity": "Rare"
+            }
+          ]
         }
       ]
     },
@@ -43838,7 +43952,14 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Solaris/SolarisUncommonOreAAlloyItem",
           "quantity": 40,
           "imageUrl": "/assets/prime/SolarisUncommonOreAAlloy.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Solaris United (Smokefinger), Outworlder",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            }
+          ]
         }
       ]
     },
@@ -55909,7 +56030,62 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreBAlloyBItem",
           "quantity": 60,
           "imageUrl": "/assets/prime/CommonOreBAlloyA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Offworlder",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Narmer Thumper Doma",
+              "rotation": null,
+              "chance": 33.36,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Tusk Thumper Doma",
+              "rotation": null,
+              "chance": 33.36,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Narmer Thumper Bull",
+              "rotation": null,
+              "chance": 25.02,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Tusk Thumper Bull",
+              "rotation": null,
+              "chance": 25.02,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Narmer Thumper",
+              "rotation": null,
+              "chance": 16.68,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Tusk Thumper",
+              "rotation": null,
+              "chance": 16.68,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 3.16,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 3.16,
+              "rarity": "Rare"
+            }
+          ]
         },
         {
           "name": "Esher Devar",
@@ -55917,7 +56093,26 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemBCutAItem",
           "quantity": 10,
           "imageUrl": "/assets/prime/CommonGemBCutA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Offworlder",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 3.16,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 3.16,
+              "rarity": "Rare"
+            }
+          ]
         },
         {
           "name": "Fish Scales",
@@ -62246,7 +62441,26 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonOreAAlloyAItem",
           "quantity": 20,
           "imageUrl": "/assets/prime/UncommonOreAAlloyA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Visitor",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 5.53,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 5.53,
+              "rarity": "Rare"
+            }
+          ]
         },
         {
           "name": "Fish Scales",
@@ -62275,7 +62489,26 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/UncommonGemACutAItem",
           "quantity": 6,
           "imageUrl": "/assets/prime/UncommonGemACutA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Visitor",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 5.53,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 5.53,
+              "rarity": "Rare"
+            }
+          ]
         }
       ]
     },
@@ -70532,7 +70765,26 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonOreAAlloyAItem",
           "quantity": 60,
           "imageUrl": "/assets/prime/CommonOreAAlloyA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Neutral",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 3.16,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 3.16,
+              "rarity": "Rare"
+            }
+          ]
         },
         {
           "name": "Tear Azurite",
@@ -70540,7 +70792,26 @@
           "uniqueName": "/Lotus/Types/Items/Gems/Eidolon/CommonGemACutAItem",
           "quantity": 10,
           "imageUrl": "/assets/prime/CommonGemACutA.png",
-          "drops": []
+          "drops": [
+            {
+              "location": "Ostron (Old Man Suumbaat), Neutral",
+              "rotation": null,
+              "chance": 100,
+              "rarity": "Common"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation A",
+              "rotation": "A",
+              "chance": 3.16,
+              "rarity": "Rare"
+            },
+            {
+              "location": "Saturn/Variant Team Annihilation (Conclave), Rotation B",
+              "rotation": "B",
+              "chance": 3.16,
+              "rarity": "Rare"
+            }
+          ]
         }
       ]
     },
